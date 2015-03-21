@@ -71,6 +71,7 @@
 		082DBC011ABDB78E002A0CAE /* LMCloudFileBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				082DBC1B1ABDB7CF002A0CAE /* Core */,
 				082DBC041ABDB78E002A0CAE /* LMCloudFileBrowser.h */,
 				082DBC021ABDB78E002A0CAE /* Supporting Files */,
 			);
@@ -100,6 +101,13 @@
 				082DBC101ABDB78E002A0CAE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		082DBC1B1ABDB7CF002A0CAE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
