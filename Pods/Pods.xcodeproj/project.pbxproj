@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00D36D81EC6499DBBA22861A /* LiveConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C21559BA8CE7AF1B9E9DB613 /* LiveConstants.h */; };
+		032E31BE112E54088FAC56CA /* LiveConnectionHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E69A861FC6822DC76635E487 /* LiveConnectionHelper.h */; };
+		0A4F8419ACE5EBBB63AAB20D /* LiveConnectSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 714058CE5DBBAE3FCD12B6CD /* LiveConnectSession.h */; };
+		0DF71A4FF6C0BE9D6ACB357F /* LiveOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 419DAF5789B92EE78E492CCD /* LiveOperation.h */; };
+		12B7EFC93C70176BA00823F9 /* LiveConnectClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADBFBA6BF2063F7025CDAED /* LiveConnectClient.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		165EA866469F4AF7C52C006C /* LiveUploadOverwriteOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C09465C42FB921CAAB97D55 /* LiveUploadOverwriteOption.h */; };
+		199D433136A0C21200286B77 /* LiveAuthDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F124AE91E5EDD6870B9FA03 /* LiveAuthDialog.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		1C6BCB0B1C4CEAFDD10D90D0 /* LiveAuthStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FCAD42F69DDE979F1141744 /* LiveAuthStorage.h */; };
+		21B56702DFA02786A224AF14 /* StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F13434998057DBA6487B07 /* StringHelper.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		254A9AC3E037EB8B999B00A8 /* LiveAuthDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = B3370113FF0797E7772537CD /* LiveAuthDialog.h */; };
+		28D3ED5810939B0701F65093 /* Pods-LiveSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B7886421F5D7561B04B573 /* Pods-LiveSDK-dummy.m */; };
+		29024070F2ABB45E6E6CCBAE /* LiveDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBE45F77F26BBDA843C101F /* LiveDownloadOperation.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		2B739D96A172FDC2A6F6F8A1 /* LiveAuthRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C370E6FBF71419CBC19E419C /* LiveAuthRequest.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		2CE83BF20D14B54CD6CB24FA /* StreamReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E9C09092CCB7A85D2A2689 /* StreamReader.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		2DD00BD953E0628F1087ABD1 /* LiveConnectClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A53BD78682362980A31E51C /* LiveConnectClient.h */; };
+		2EB4D31598E89CF8A743415B /* LiveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2B6EF1F7E278B6CEE7CD98 /* LiveOperation.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		2FDD11090874EA2B01EB7473 /* LiveConnectSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA857AB517B6800EA6D30DA /* LiveConnectSession.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		3CC06B3CB1AF9074406F9744 /* LiveDownloadOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C96725ECDFEB0198FC3824A /* LiveDownloadOperation.h */; };
+		444885E6B2FAF00DE7BFD4E4 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 00293EF9C6C28E16162637D5 /* MBProgressHUD.h */; };
+		446F055F236A61369F8A0074 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C809D51C42ABFABA47B29 /* Pods-dummy.m */; };
+		488779953ACE51E03CD402DD /* LiveConnectSessionStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E2D2F6601E85834437F732 /* LiveConnectSessionStatus.h */; };
+		4912C3C8DCBB5B2E338CE20F /* LiveOperationProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE64868F86BEBED6DDEC9A /* LiveOperationProgress.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		49F606E27ACA3B1925E5DD2C /* StringHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CAC7E50CA619EBAFDCD4EBB /* StringHelper.h */; };
+		4CCE859F1DA301FC31C3375D /* LiveConnectClientCore.h in Headers */ = {isa = PBXBuildFile; fileRef = AE76650FE0C38B3ABC648436 /* LiveConnectClientCore.h */; };
+		4E9F53142DA854C9341B2F75 /* LiveDownloadOperationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5084F69CB90CE014ECB87DF5 /* LiveDownloadOperationDelegate.h */; };
+		50E7103FB2B6C98F82032565 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150B294CA056EF8B51EE1BBC /* Foundation.framework */; };
+		55463F208AC99ADAED097479 /* LiveOperationProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F867A0448C70D14279B3C05 /* LiveOperationProgress.h */; };
+		5D5277C9562C7AB08D1CAEBE /* StreamReader.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B51A342D771A966DE24CFC /* StreamReader.h */; };
+		60A240F2738E09245E2267D0 /* Pods-MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1AE4BEA0E7216D21E942C8 /* Pods-MBProgressHUD-dummy.m */; };
+		610258BFE40E999FFE436554 /* LiveDownloadOperationCore.h in Headers */ = {isa = PBXBuildFile; fileRef = A9C65E51103FD6474D78ACE6 /* LiveDownloadOperationCore.h */; };
+		6851FC663AF67B20D9BE976D /* LiveOperationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE037C0CD84CF12D2443044 /* LiveOperationInternal.h */; };
+		6C456BC82104737043561FF2 /* LiveAuthHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0F4339DAF33336AE9935B5 /* LiveAuthHelper.h */; };
+		6CBA6294BC7A83834066712D /* LiveUploadOperationCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE16C74258FF380D39D2BD /* LiveUploadOperationCore.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		6F6E3518610F9A822DE13A86 /* LiveDownloadOperationCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAC4FC63EACB4F2CA6CDBBC /* LiveDownloadOperationCore.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		74CA024C979782035B3DEB6C /* LiveUploadOperationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3198BA4E0A1D0865BFE34603 /* LiveUploadOperationDelegate.h */; };
+		772954CB3091CCDF050FF8F6 /* LiveAuthRefreshRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5130DF5C537507F4973AF0 /* LiveAuthRefreshRequest.h */; };
+		7E95236183627414FE85BD6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150B294CA056EF8B51EE1BBC /* Foundation.framework */; };
+		88036A2EE56858221893A3AD /* LiveApiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84058CD3342AA23A63658EFB /* LiveApiHelper.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		8E43A044A98A6D6FA1D840EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2170433F96B62D277F5154F /* CoreGraphics.framework */; };
+		9B8B94093DED7A7E16073DCE /* LiveAuthRefreshRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4FBE19E63585ACD664C588 /* LiveAuthRefreshRequest.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		9B9C985DB9DD13841E167B27 /* JsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = C698C0E626C2D631BA668B75 /* JsonParser.h */; };
+		9E971CCBEF431CE9EC775E20 /* LiveApiHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D5EC59A602A1628E77FD5059 /* LiveApiHelper.h */; };
+		A690F24DC1B0B04963D20260 /* LiveOperationCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAFE5089CB44D8A7902E8C7 /* LiveOperationCore.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		A6BB5A727B1A4BACB0831BF9 /* LiveUploadOperationCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 170FDF9AFBA77B42D8B52DAD /* LiveUploadOperationCore.h */; };
+		A9BA3174DB902E9D47788A87 /* UrlHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4846E0E7AAB83E814C8D5109 /* UrlHelper.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		ADA5F967CF4F0AE8354CEFFC /* JsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 496A0FB9EF57E05D977355E4 /* JsonParser.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		BBBBB654BC2FA00CFFE0D88E /* LiveAuthDialogDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 283FF9B6D4164F2DF58E1069 /* LiveAuthDialogDelegate.h */; };
+		C05FAF06F45C0E2A9CACF20E /* LiveAuthStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D54D826EC2D1250BF8AC681 /* LiveAuthStorage.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		C3E2C3782BC866D380732BD5 /* UrlHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E189BC852DB48723B54E87C /* UrlHelper.h */; };
+		CA964BD25EA3460A561A7D09 /* LiveConnectionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF8EDD541ED92BA7950B5A /* LiveConnectionHelper.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		CAFF5AD7DE1815A1315885DB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A600DC883076C6391AD0062 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CB2C16D9A1244B62C3B4EC56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150B294CA056EF8B51EE1BBC /* Foundation.framework */; };
+		D35CB90425C5CDF4C1897751 /* LiveOperationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA9106F09E3DE5A204792E3 /* LiveOperationDelegate.h */; };
+		D87A439D71B7FD15F7FB8EF3 /* JsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D19A00BBE67C762BD6A644 /* JsonWriter.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		D98CDF3F89C919918D9FFBBB /* LiveOperationCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 71118AB6242C4451FB8E1D8C /* LiveOperationCore.h */; };
+		DE851640D6D507CBF1DD338D /* JsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CAFDBB2F98500392881BD72 /* JsonWriter.h */; };
+		E4B02E841655D6524705C76F /* LiveConnectionCreatorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA2F64AF581E6D6D2A990C6 /* LiveConnectionCreatorDelegate.h */; };
+		EB106E9CCAD71B5E9E800A52 /* LiveAuthDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B8300300108D88C423A049 /* LiveAuthDelegate.h */; };
+		ED4CD7C675D453FCFA29FDA4 /* LiveDownloadOperationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = A06D2B82F0C5C728599DDEE8 /* LiveDownloadOperationInternal.h */; };
+		F4F1FF5C557AAF4C9E76E945 /* LiveConnectClientCore.m in Sources */ = {isa = PBXBuildFile; fileRef = F242AD2CD7B766AF47A738B4 /* LiveConnectClientCore.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		F69AFAC28DD7F81ED47CDEBA /* LiveAuthHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F548499640EA3B43902E750 /* LiveAuthHelper.m */; settings = {COMPILER_FLAGS = "-DNS_BLOCK_ASSERTIONS=1 -fno-objc-arc"; }; };
+		F91F9AC7D389B691422DE42B /* LiveAuthRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 988EB4ED91627D1694800E74 /* LiveAuthRequest.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16ACF1DB57C386098E4CAB63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 558D0C92AA038F96AC93C731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C27D2A0C884EC178278A4E1;
+			remoteInfo = "Pods-LiveSDK";
+		};
+		AA1498427BD4707D63684E0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 558D0C92AA038F96AC93C731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA2F9145C584665775F722D6;
+			remoteInfo = "Pods-MBProgressHUD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00293EF9C6C28E16162637D5 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		050593A9CA1E219B854B02E0 /* backArrow_black.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = backArrow_black.png; path = src/LiveSDK/Library/Internal/Resources/backArrow_black.png; sourceTree = "<group>"; };
+		08B7886421F5D7561B04B573 /* Pods-LiveSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiveSDK-dummy.m"; sourceTree = "<group>"; };
+		0C09465C42FB921CAAB97D55 /* LiveUploadOverwriteOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveUploadOverwriteOption.h; path = src/LiveSDK/Library/Public/LiveUploadOverwriteOption.h; sourceTree = "<group>"; };
+		0CAC7E50CA619EBAFDCD4EBB /* StringHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringHelper.h; path = src/LiveSDK/Library/Internal/Helpers/StringHelper.h; sourceTree = "<group>"; };
+		0F5130DF5C537507F4973AF0 /* LiveAuthRefreshRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveAuthRefreshRequest.h; path = src/LiveSDK/Library/Internal/LiveAuthRefreshRequest.h; sourceTree = "<group>"; };
+		11316FCE41A842FBC9021353 /* Pods-LiveSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LiveSDK-prefix.pch"; sourceTree = "<group>"; };
+		150B294CA056EF8B51EE1BBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		16F0A94DB8B76B6977652F1C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		170FDF9AFBA77B42D8B52DAD /* LiveUploadOperationCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveUploadOperationCore.h; path = src/LiveSDK/Library/Internal/LiveUploadOperationCore.h; sourceTree = "<group>"; };
+		19466F19E0D741CB10F2DCBC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ACE64868F86BEBED6DDEC9A /* LiveOperationProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LiveOperationProgress.m; path = src/LiveSDK/Library/Public/LiveOperationProgress.m; sourceTree = "<group>"; };
+		1C2B6EF1F7E278B6CEE7CD98 /* LiveOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LiveOperation.m; path = src/LiveSDK/Library/Public/LiveOperation.m; sourceTree = "<group>"; };
+		1C4FBE19E63585ACD664C588 /* LiveAuthRefreshRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LiveAuthRefreshRequest.m; path = src/LiveSDK/Library/Internal/LiveAuthRefreshRequest.m; sourceTree = "<group>"; };
+		283FF9B6D4164F2DF58E1069 /* LiveAuthDialogDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveAuthDialogDelegate.h; path = src/LiveSDK/Library/Internal/LiveAuthDialogDelegate.h; sourceTree = "<group>"; };
+		28E10345485DDB939298E778 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		292935D01EABC6AAAF065E33 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		29B8300300108D88C423A049 /* LiveAuthDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveAuthDelegate.h; path = src/LiveSDK/Library/Public/LiveAuthDelegate.h; sourceTree = "<group>"; };
+		3198BA4E0A1D0865BFE34603 /* LiveUploadOperationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveUploadOperationDelegate.h; path = src/LiveSDK/Library/Public/LiveUploadOperationDelegate.h; sourceTree = "<group>"; };
+		3A53BD78682362980A31E51C /* LiveConnectClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveConnectClient.h; path = src/LiveSDK/Library/Public/LiveConnectClient.h; sourceTree = "<group>"; };
+		3D54D826EC2D1250BF8AC681 /* LiveAuthStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LiveAuthStorage.m; path = src/LiveSDK/Library/Internal/LiveAuthStorage.m; sourceTree = "<group>"; };
+		3DBE45F77F26BBDA843C101F /* LiveDownloadOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LiveDownloadOperation.m; path = src/LiveSDK/Library/Public/LiveDownloadOperation.m; sourceTree = "<group>"; };
+		3DCE16C74258FF380D39D2BD /* LiveUploadOperationCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LiveUploadOperationCore.m; path = src/LiveSDK/Library/Internal/LiveUploadOperationCore.m; sourceTree = "<group>"; };
+		3DE037C0CD84CF12D2443044 /* LiveOperationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveOperationInternal.h; path = src/LiveSDK/Library/Internal/LiveOperationInternal.h; sourceTree = "<group>"; };
+		3FD678E344610174CEEB4C39 /* libPods-MBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MBProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		419DAF5789B92EE78E492CCD /* LiveOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveOperation.h; path = src/LiveSDK/Library/Public/LiveOperation.h; sourceTree = "<group>"; };
+		42E9C09092CCB7A85D2A2689 /* StreamReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StreamReader.m; path = src/LiveSDK/Library/Internal/Helpers/StreamReader.m; sourceTree = "<group>"; };
+		4846E0E7AAB83E814C8D5109 /* UrlHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UrlHelper.m; path = src/LiveSDK/Library/Internal/Helpers/UrlHelper.m; sourceTree = "<group>"; };
+		496A0FB9EF57E05D977355E4 /* JsonParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JsonParser.m; path = src/LiveSDK/Library/Internal/Helpers/JsonParser.m; sourceTree = "<group>"; };
+		4C6C809D51C42ABFABA47B29 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		4EEB7A0C417744F28EB79A0D /* Pods-LiveSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiveSDK.xcconfig"; sourceTree = "<group>"; };
+		4F867A0448C70D14279B3C05 /* LiveOperationProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveOperationProgress.h; path = src/LiveSDK/Library/Public/LiveOperationProgress.h; sourceTree = "<group>"; };
+		5084F69CB90CE014ECB87DF5 /* LiveDownloadOperationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveDownloadOperationDelegate.h; path = src/LiveSDK/Library/Public/LiveDownloadOperationDelegate.h; sourceTree = "<group>"; };
+		56F13434998057DBA6487B07 /* StringHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StringHelper.m; path = src/LiveSDK/Library/Internal/Helpers/StringHelper.m; sourceTree = "<group>"; };
+		5CAFDBB2F98500392881BD72 /* JsonWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JsonWriter.h; path = src/LiveSDK/Library/Internal/Helpers/JsonWriter.h; sourceTree = "<group>"; };
+		5DBCFA16BE021AE6AFC8BBAD /* libPods-LiveSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiveSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65ACE93AF4E0959C98655F3F /* Pods-MBProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		6672F376C7C3781FE9F4A7C9 /* Pods-LiveSDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiveSDK-Private.xcconfig"; sourceTree = "<group>"; };
+		6A1138450B79901491C58966 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		6DAC4FC63EACB4F2CA6CDBBC /* LiveDownloadOperationCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LiveDownloadOperationCore.m; path = src/LiveSDK/Library/Internal/LiveDownloadOperationCore.m; sourceTree = "<group>"; };
+		71118AB6242C4451FB8E1D8C /* LiveOperationCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveOperationCore.h; path = src/LiveSDK/Library/Internal/LiveOperationCore.h; sourceTree = "<group>"; };
+		714058CE5DBBAE3FCD12B6CD /* LiveConnectSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveConnectSession.h; path = src/LiveSDK/Library/Public/LiveConnectSession.h; sourceTree = "<group>"; };
+		7BF27DD0715A4C68C69D2334 /* LiveAuthDialog_iPad.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LiveAuthDialog_iPad.xib; path = src/LiveSDK/Library/Internal/LiveAuthDialog_iPad.xib; sourceTree = "<group>"; };
+		81D19A00BBE67C762BD6A644 /* JsonWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JsonWriter.m; path = src/LiveSDK/Library/Internal/Helpers/JsonWriter.m; sourceTree = "<group>"; };
+		84058CD3342AA23A63658EFB /* LiveApiHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LiveApiHelper.m; path = src/LiveSDK/Library/Internal/Helpers/LiveApiHelper.m; sourceTree = "<group>"; };
+		988EB4ED91627D1694800E74 /* LiveAuthRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveAuthRequest.h; path = src/LiveSDK/Library/Internal/LiveAuthRequest.h; sourceTree = "<group>"; };
+		9A600DC883076C6391AD0062 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		9AAFE5089CB44D8A7902E8C7 /* LiveOperationCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LiveOperationCore.m; path = src/LiveSDK/Library/Internal/LiveOperationCore.m; sourceTree = "<group>"; };
+		9ADBFBA6BF2063F7025CDAED /* LiveConnectClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LiveConnectClient.m; path = src/LiveSDK/Library/Public/LiveConnectClient.m; sourceTree = "<group>"; };
+		9C96725ECDFEB0198FC3824A /* LiveDownloadOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveDownloadOperation.h; path = src/LiveSDK/Library/Public/LiveDownloadOperation.h; sourceTree = "<group>"; };
+		9CA857AB517B6800EA6D30DA /* LiveConnectSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LiveConnectSession.m; path = src/LiveSDK/Library/Public/LiveConnectSession.m; sourceTree = "<group>"; };
+		9CDF8EDD541ED92BA7950B5A /* LiveConnectionHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LiveConnectionHelper.m; path = src/LiveSDK/Library/Internal/Helpers/LiveConnectionHelper.m; sourceTree = "<group>"; };
+		9E189BC852DB48723B54E87C /* UrlHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UrlHelper.h; path = src/LiveSDK/Library/Internal/Helpers/UrlHelper.h; sourceTree = "<group>"; };
+		9F124AE91E5EDD6870B9FA03 /* LiveAuthDialog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LiveAuthDialog.m; path = src/LiveSDK/Library/Internal/LiveAuthDialog.m; sourceTree = "<group>"; };
+		9F548499640EA3B43902E750 /* LiveAuthHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LiveAuthHelper.m; path = src/LiveSDK/Library/Internal/Helpers/LiveAuthHelper.m; sourceTree = "<group>"; };
+		9FA2F64AF581E6D6D2A990C6 /* LiveConnectionCreatorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveConnectionCreatorDelegate.h; path = src/LiveSDK/Library/Internal/Helpers/LiveConnectionCreatorDelegate.h; sourceTree = "<group>"; };
+		9FCAD42F69DDE979F1141744 /* LiveAuthStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveAuthStorage.h; path = src/LiveSDK/Library/Internal/LiveAuthStorage.h; sourceTree = "<group>"; };
+		A06D2B82F0C5C728599DDEE8 /* LiveDownloadOperationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveDownloadOperationInternal.h; path = src/LiveSDK/Library/Internal/LiveDownloadOperationInternal.h; sourceTree = "<group>"; };
+		A9C65E51103FD6474D78ACE6 /* LiveDownloadOperationCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveDownloadOperationCore.h; path = src/LiveSDK/Library/Internal/LiveDownloadOperationCore.h; sourceTree = "<group>"; };
+		AE76650FE0C38B3ABC648436 /* LiveConnectClientCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveConnectClientCore.h; path = src/LiveSDK/Library/Internal/LiveConnectClientCore.h; sourceTree = "<group>"; };
+		AEA9106F09E3DE5A204792E3 /* LiveOperationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveOperationDelegate.h; path = src/LiveSDK/Library/Public/LiveOperationDelegate.h; sourceTree = "<group>"; };
+		B1C27885F60BE97DD0E65816 /* Pods-MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		B3370113FF0797E7772537CD /* LiveAuthDialog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveAuthDialog.h; path = src/LiveSDK/Library/Internal/LiveAuthDialog.h; sourceTree = "<group>"; };
+		B4E2D2F6601E85834437F732 /* LiveConnectSessionStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveConnectSessionStatus.h; path = src/LiveSDK/Library/Public/LiveConnectSessionStatus.h; sourceTree = "<group>"; };
+		C21559BA8CE7AF1B9E9DB613 /* LiveConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveConstants.h; path = src/LiveSDK/Library/Internal/LiveConstants.h; sourceTree = "<group>"; };
+		C370E6FBF71419CBC19E419C /* LiveAuthRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LiveAuthRequest.m; path = src/LiveSDK/Library/Internal/LiveAuthRequest.m; sourceTree = "<group>"; };
+		C698C0E626C2D631BA668B75 /* JsonParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JsonParser.h; path = src/LiveSDK/Library/Internal/Helpers/JsonParser.h; sourceTree = "<group>"; };
+		CF0F4339DAF33336AE9935B5 /* LiveAuthHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveAuthHelper.h; path = src/LiveSDK/Library/Internal/Helpers/LiveAuthHelper.h; sourceTree = "<group>"; };
+		D2B51A342D771A966DE24CFC /* StreamReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StreamReader.h; path = src/LiveSDK/Library/Internal/Helpers/StreamReader.h; sourceTree = "<group>"; };
+		D5C85EFFA7065EAD9F2CD35B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		D5EC59A602A1628E77FD5059 /* LiveApiHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveApiHelper.h; path = src/LiveSDK/Library/Internal/Helpers/LiveApiHelper.h; sourceTree = "<group>"; };
+		D7AAECB06F295BF670AC1491 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2170433F96B62D277F5154F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		E69A861FC6822DC76635E487 /* LiveConnectionHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveConnectionHelper.h; path = src/LiveSDK/Library/Internal/Helpers/LiveConnectionHelper.h; sourceTree = "<group>"; };
+		EC1AE4BEA0E7216D21E942C8 /* Pods-MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		ED14F6BF34C51126A388C0B9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		EF2F606F54718DA9007E920E /* LiveAuthDialog_iPhone.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LiveAuthDialog_iPhone.xib; path = src/LiveSDK/Library/Internal/LiveAuthDialog_iPhone.xib; sourceTree = "<group>"; };
+		F07C38B0E18FF0AB9D0EEF87 /* Pods-MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBProgressHUD.xcconfig"; sourceTree = "<group>"; };
+		F242AD2CD7B766AF47A738B4 /* LiveConnectClientCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LiveConnectClientCore.m; path = src/LiveSDK/Library/Internal/LiveConnectClientCore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		667DA856F038F478FA088A53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E43A044A98A6D6FA1D840EE /* CoreGraphics.framework in Frameworks */,
+				7E95236183627414FE85BD6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B278D343ADEFC6EBBCBCC1BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E7103FB2B6C98F82032565 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E69A344D074AA99ABA52F9E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2C16D9A1244B62C3B4EC56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00FFF05B48F72CAE31EE9730 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41AE62D999B0D3C90EFBC51B /* LiveSDK */,
+				D5265E388354EF03C3C5ADD4 /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0FB03C6403EE5FFE3DEB302D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7AAECB06F295BF670AC1491 /* Pods-acknowledgements.markdown */,
+				28E10345485DDB939298E778 /* Pods-acknowledgements.plist */,
+				4C6C809D51C42ABFABA47B29 /* Pods-dummy.m */,
+				6A1138450B79901491C58966 /* Pods-environment.h */,
+				292935D01EABC6AAAF065E33 /* Pods-resources.sh */,
+				D5C85EFFA7065EAD9F2CD35B /* Pods.debug.xcconfig */,
+				ED14F6BF34C51126A388C0B9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		1C33ED95923CB02929B37566 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2666CEF5A6989836593F908 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B7A8C94019C56E06561ABC0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7BF27DD0715A4C68C69D2334 /* LiveAuthDialog_iPad.xib */,
+				EF2F606F54718DA9007E920E /* LiveAuthDialog_iPhone.xib */,
+				050593A9CA1E219B854B02E0 /* backArrow_black.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		41AE62D999B0D3C90EFBC51B /* LiveSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C698C0E626C2D631BA668B75 /* JsonParser.h */,
+				496A0FB9EF57E05D977355E4 /* JsonParser.m */,
+				5CAFDBB2F98500392881BD72 /* JsonWriter.h */,
+				81D19A00BBE67C762BD6A644 /* JsonWriter.m */,
+				D5EC59A602A1628E77FD5059 /* LiveApiHelper.h */,
+				84058CD3342AA23A63658EFB /* LiveApiHelper.m */,
+				29B8300300108D88C423A049 /* LiveAuthDelegate.h */,
+				B3370113FF0797E7772537CD /* LiveAuthDialog.h */,
+				9F124AE91E5EDD6870B9FA03 /* LiveAuthDialog.m */,
+				283FF9B6D4164F2DF58E1069 /* LiveAuthDialogDelegate.h */,
+				CF0F4339DAF33336AE9935B5 /* LiveAuthHelper.h */,
+				9F548499640EA3B43902E750 /* LiveAuthHelper.m */,
+				0F5130DF5C537507F4973AF0 /* LiveAuthRefreshRequest.h */,
+				1C4FBE19E63585ACD664C588 /* LiveAuthRefreshRequest.m */,
+				988EB4ED91627D1694800E74 /* LiveAuthRequest.h */,
+				C370E6FBF71419CBC19E419C /* LiveAuthRequest.m */,
+				9FCAD42F69DDE979F1141744 /* LiveAuthStorage.h */,
+				3D54D826EC2D1250BF8AC681 /* LiveAuthStorage.m */,
+				3A53BD78682362980A31E51C /* LiveConnectClient.h */,
+				9ADBFBA6BF2063F7025CDAED /* LiveConnectClient.m */,
+				AE76650FE0C38B3ABC648436 /* LiveConnectClientCore.h */,
+				F242AD2CD7B766AF47A738B4 /* LiveConnectClientCore.m */,
+				714058CE5DBBAE3FCD12B6CD /* LiveConnectSession.h */,
+				9CA857AB517B6800EA6D30DA /* LiveConnectSession.m */,
+				B4E2D2F6601E85834437F732 /* LiveConnectSessionStatus.h */,
+				9FA2F64AF581E6D6D2A990C6 /* LiveConnectionCreatorDelegate.h */,
+				E69A861FC6822DC76635E487 /* LiveConnectionHelper.h */,
+				9CDF8EDD541ED92BA7950B5A /* LiveConnectionHelper.m */,
+				C21559BA8CE7AF1B9E9DB613 /* LiveConstants.h */,
+				9C96725ECDFEB0198FC3824A /* LiveDownloadOperation.h */,
+				3DBE45F77F26BBDA843C101F /* LiveDownloadOperation.m */,
+				A9C65E51103FD6474D78ACE6 /* LiveDownloadOperationCore.h */,
+				6DAC4FC63EACB4F2CA6CDBBC /* LiveDownloadOperationCore.m */,
+				5084F69CB90CE014ECB87DF5 /* LiveDownloadOperationDelegate.h */,
+				A06D2B82F0C5C728599DDEE8 /* LiveDownloadOperationInternal.h */,
+				419DAF5789B92EE78E492CCD /* LiveOperation.h */,
+				1C2B6EF1F7E278B6CEE7CD98 /* LiveOperation.m */,
+				71118AB6242C4451FB8E1D8C /* LiveOperationCore.h */,
+				9AAFE5089CB44D8A7902E8C7 /* LiveOperationCore.m */,
+				AEA9106F09E3DE5A204792E3 /* LiveOperationDelegate.h */,
+				3DE037C0CD84CF12D2443044 /* LiveOperationInternal.h */,
+				4F867A0448C70D14279B3C05 /* LiveOperationProgress.h */,
+				1ACE64868F86BEBED6DDEC9A /* LiveOperationProgress.m */,
+				170FDF9AFBA77B42D8B52DAD /* LiveUploadOperationCore.h */,
+				3DCE16C74258FF380D39D2BD /* LiveUploadOperationCore.m */,
+				3198BA4E0A1D0865BFE34603 /* LiveUploadOperationDelegate.h */,
+				0C09465C42FB921CAAB97D55 /* LiveUploadOverwriteOption.h */,
+				D2B51A342D771A966DE24CFC /* StreamReader.h */,
+				42E9C09092CCB7A85D2A2689 /* StreamReader.m */,
+				0CAC7E50CA619EBAFDCD4EBB /* StringHelper.h */,
+				56F13434998057DBA6487B07 /* StringHelper.m */,
+				9E189BC852DB48723B54E87C /* UrlHelper.h */,
+				4846E0E7AAB83E814C8D5109 /* UrlHelper.m */,
+				2B7A8C94019C56E06561ABC0 /* Resources */,
+				9C558B6D025B60BBC48C2D9B /* Support Files */,
+			);
+			path = LiveSDK;
+			sourceTree = "<group>";
+		};
+		47BE021B62E0EFD252F20C05 = {
+			isa = PBXGroup;
+			children = (
+				16F0A94DB8B76B6977652F1C /* Podfile */,
+				1C33ED95923CB02929B37566 /* Frameworks */,
+				00FFF05B48F72CAE31EE9730 /* Pods */,
+				C5391EE8DE58907045F81DD4 /* Products */,
+				9059D35542377252B491376A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9059D35542377252B491376A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FB03C6403EE5FFE3DEB302D /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9C558B6D025B60BBC48C2D9B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EEB7A0C417744F28EB79A0D /* Pods-LiveSDK.xcconfig */,
+				6672F376C7C3781FE9F4A7C9 /* Pods-LiveSDK-Private.xcconfig */,
+				08B7886421F5D7561B04B573 /* Pods-LiveSDK-dummy.m */,
+				11316FCE41A842FBC9021353 /* Pods-LiveSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-LiveSDK";
+			sourceTree = "<group>";
+		};
+		C2666CEF5A6989836593F908 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E2170433F96B62D277F5154F /* CoreGraphics.framework */,
+				150B294CA056EF8B51EE1BBC /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5391EE8DE58907045F81DD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19466F19E0D741CB10F2DCBC /* libPods.a */,
+				5DBCFA16BE021AE6AFC8BBAD /* libPods-LiveSDK.a */,
+				3FD678E344610174CEEB4C39 /* libPods-MBProgressHUD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4E9C61D02448A8360D61D76 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F07C38B0E18FF0AB9D0EEF87 /* Pods-MBProgressHUD.xcconfig */,
+				65ACE93AF4E0959C98655F3F /* Pods-MBProgressHUD-Private.xcconfig */,
+				EC1AE4BEA0E7216D21E942C8 /* Pods-MBProgressHUD-dummy.m */,
+				B1C27885F60BE97DD0E65816 /* Pods-MBProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		D5265E388354EF03C3C5ADD4 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				00293EF9C6C28E16162637D5 /* MBProgressHUD.h */,
+				9A600DC883076C6391AD0062 /* MBProgressHUD.m */,
+				D4E9C61D02448A8360D61D76 /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5A937257C533C3987FF7BA50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9C985DB9DD13841E167B27 /* JsonParser.h in Headers */,
+				DE851640D6D507CBF1DD338D /* JsonWriter.h in Headers */,
+				9E971CCBEF431CE9EC775E20 /* LiveApiHelper.h in Headers */,
+				EB106E9CCAD71B5E9E800A52 /* LiveAuthDelegate.h in Headers */,
+				254A9AC3E037EB8B999B00A8 /* LiveAuthDialog.h in Headers */,
+				BBBBB654BC2FA00CFFE0D88E /* LiveAuthDialogDelegate.h in Headers */,
+				6C456BC82104737043561FF2 /* LiveAuthHelper.h in Headers */,
+				772954CB3091CCDF050FF8F6 /* LiveAuthRefreshRequest.h in Headers */,
+				F91F9AC7D389B691422DE42B /* LiveAuthRequest.h in Headers */,
+				1C6BCB0B1C4CEAFDD10D90D0 /* LiveAuthStorage.h in Headers */,
+				2DD00BD953E0628F1087ABD1 /* LiveConnectClient.h in Headers */,
+				4CCE859F1DA301FC31C3375D /* LiveConnectClientCore.h in Headers */,
+				0A4F8419ACE5EBBB63AAB20D /* LiveConnectSession.h in Headers */,
+				488779953ACE51E03CD402DD /* LiveConnectSessionStatus.h in Headers */,
+				E4B02E841655D6524705C76F /* LiveConnectionCreatorDelegate.h in Headers */,
+				032E31BE112E54088FAC56CA /* LiveConnectionHelper.h in Headers */,
+				00D36D81EC6499DBBA22861A /* LiveConstants.h in Headers */,
+				3CC06B3CB1AF9074406F9744 /* LiveDownloadOperation.h in Headers */,
+				610258BFE40E999FFE436554 /* LiveDownloadOperationCore.h in Headers */,
+				4E9F53142DA854C9341B2F75 /* LiveDownloadOperationDelegate.h in Headers */,
+				ED4CD7C675D453FCFA29FDA4 /* LiveDownloadOperationInternal.h in Headers */,
+				0DF71A4FF6C0BE9D6ACB357F /* LiveOperation.h in Headers */,
+				D98CDF3F89C919918D9FFBBB /* LiveOperationCore.h in Headers */,
+				D35CB90425C5CDF4C1897751 /* LiveOperationDelegate.h in Headers */,
+				6851FC663AF67B20D9BE976D /* LiveOperationInternal.h in Headers */,
+				55463F208AC99ADAED097479 /* LiveOperationProgress.h in Headers */,
+				A6BB5A727B1A4BACB0831BF9 /* LiveUploadOperationCore.h in Headers */,
+				74CA024C979782035B3DEB6C /* LiveUploadOperationDelegate.h in Headers */,
+				165EA866469F4AF7C52C006C /* LiveUploadOverwriteOption.h in Headers */,
+				5D5277C9562C7AB08D1CAEBE /* StreamReader.h in Headers */,
+				49F606E27ACA3B1925E5DD2C /* StringHelper.h in Headers */,
+				C3E2C3782BC866D380732BD5 /* UrlHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB96445F140AEFC91F5E4A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444885E6B2FAF00DE7BFD4E4 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B580EA70C41F235245F5B31 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F05E0A50CEB72C5998868B9A /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				A9B3036AB6E564995DBAF231 /* Sources */,
+				B278D343ADEFC6EBBCBCC1BE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA9A7033D943E6A91262A1F4 /* PBXTargetDependency */,
+				FD0362FBC8C450BD3689D39A /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 19466F19E0D741CB10F2DCBC /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7C27D2A0C884EC178278A4E1 /* Pods-LiveSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1648DF69FA797720E959351 /* Build configuration list for PBXNativeTarget "Pods-LiveSDK" */;
+			buildPhases = (
+				B1EDCEB83DB8DE2CF3467CA4 /* Sources */,
+				E69A344D074AA99ABA52F9E4 /* Frameworks */,
+				5A937257C533C3987FF7BA50 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LiveSDK";
+			productName = "Pods-LiveSDK";
+			productReference = 5DBCFA16BE021AE6AFC8BBAD /* libPods-LiveSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DA2F9145C584665775F722D6 /* Pods-MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0037972D24BD1810AC4B9893 /* Build configuration list for PBXNativeTarget "Pods-MBProgressHUD" */;
+			buildPhases = (
+				0D53A775FBA459819E19A039 /* Sources */,
+				667DA856F038F478FA088A53 /* Frameworks */,
+				ABB96445F140AEFC91F5E4A2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MBProgressHUD";
+			productName = "Pods-MBProgressHUD";
+			productReference = 3FD678E344610174CEEB4C39 /* libPods-MBProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		558D0C92AA038F96AC93C731 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 53348A064E74063AD97D893E /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 47BE021B62E0EFD252F20C05;
+			productRefGroup = C5391EE8DE58907045F81DD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B580EA70C41F235245F5B31 /* Pods */,
+				7C27D2A0C884EC178278A4E1 /* Pods-LiveSDK */,
+				DA2F9145C584665775F722D6 /* Pods-MBProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D53A775FBA459819E19A039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFF5AD7DE1815A1315885DB /* MBProgressHUD.m in Sources */,
+				60A240F2738E09245E2267D0 /* Pods-MBProgressHUD-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B3036AB6E564995DBAF231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446F055F236A61369F8A0074 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EDCEB83DB8DE2CF3467CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA5F967CF4F0AE8354CEFFC /* JsonParser.m in Sources */,
+				D87A439D71B7FD15F7FB8EF3 /* JsonWriter.m in Sources */,
+				88036A2EE56858221893A3AD /* LiveApiHelper.m in Sources */,
+				199D433136A0C21200286B77 /* LiveAuthDialog.m in Sources */,
+				F69AFAC28DD7F81ED47CDEBA /* LiveAuthHelper.m in Sources */,
+				9B8B94093DED7A7E16073DCE /* LiveAuthRefreshRequest.m in Sources */,
+				2B739D96A172FDC2A6F6F8A1 /* LiveAuthRequest.m in Sources */,
+				C05FAF06F45C0E2A9CACF20E /* LiveAuthStorage.m in Sources */,
+				12B7EFC93C70176BA00823F9 /* LiveConnectClient.m in Sources */,
+				F4F1FF5C557AAF4C9E76E945 /* LiveConnectClientCore.m in Sources */,
+				2FDD11090874EA2B01EB7473 /* LiveConnectSession.m in Sources */,
+				CA964BD25EA3460A561A7D09 /* LiveConnectionHelper.m in Sources */,
+				29024070F2ABB45E6E6CCBAE /* LiveDownloadOperation.m in Sources */,
+				6F6E3518610F9A822DE13A86 /* LiveDownloadOperationCore.m in Sources */,
+				2EB4D31598E89CF8A743415B /* LiveOperation.m in Sources */,
+				A690F24DC1B0B04963D20260 /* LiveOperationCore.m in Sources */,
+				4912C3C8DCBB5B2E338CE20F /* LiveOperationProgress.m in Sources */,
+				6CBA6294BC7A83834066712D /* LiveUploadOperationCore.m in Sources */,
+				28D3ED5810939B0701F65093 /* Pods-LiveSDK-dummy.m in Sources */,
+				2CE83BF20D14B54CD6CB24FA /* StreamReader.m in Sources */,
+				21B56702DFA02786A224AF14 /* StringHelper.m in Sources */,
+				A9BA3174DB902E9D47788A87 /* UrlHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA9A7033D943E6A91262A1F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LiveSDK";
+			target = 7C27D2A0C884EC178278A4E1 /* Pods-LiveSDK */;
+			targetProxy = 16ACF1DB57C386098E4CAB63 /* PBXContainerItemProxy */;
+		};
+		FD0362FBC8C450BD3689D39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MBProgressHUD";
+			target = DA2F9145C584665775F722D6 /* Pods-MBProgressHUD */;
+			targetProxy = AA1498427BD4707D63684E0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		212FD14C8C3C9EDF693581E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2254BFAE0CF8DD50FCA6A47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6672F376C7C3781FE9F4A7C9 /* Pods-LiveSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LiveSDK/Pods-LiveSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7B29418B3ADF12C24B22580B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED14F6BF34C51126A388C0B9 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BA63D9B843F37D04A26FC95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6672F376C7C3781FE9F4A7C9 /* Pods-LiveSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LiveSDK/Pods-LiveSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C28B487BBF1191AAFEAE705C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C85EFFA7065EAD9F2CD35B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DA0574DB3E128F7591A40F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65ACE93AF4E0959C98655F3F /* Pods-MBProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MBProgressHUD/Pods-MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E2B4479009737AAFEF3123FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65ACE93AF4E0959C98655F3F /* Pods-MBProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MBProgressHUD/Pods-MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E6572F1F38D893A60912AF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0037972D24BD1810AC4B9893 /* Build configuration list for PBXNativeTarget "Pods-MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B4479009737AAFEF3123FC /* Debug */,
+				DA0574DB3E128F7591A40F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53348A064E74063AD97D893E /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6572F1F38D893A60912AF88 /* Debug */,
+				212FD14C8C3C9EDF693581E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1648DF69FA797720E959351 /* Build configuration list for PBXNativeTarget "Pods-LiveSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA63D9B843F37D04A26FC95C /* Debug */,
+				2254BFAE0CF8DD50FCA6A47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F05E0A50CEB72C5998868B9A /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28B487BBF1191AAFEAE705C /* Debug */,
+				7B29418B3ADF12C24B22580B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 558D0C92AA038F96AC93C731 /* Project object */;
+}
