@@ -10,11 +10,58 @@
 		082DBC051ABDB78E002A0CAE /* LMCloudFileBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 082DBC041ABDB78E002A0CAE /* LMCloudFileBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		082DBC0B1ABDB78E002A0CAE /* LMCloudFileBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082DBBFF1ABDB78E002A0CAE /* LMCloudFileBrowser.framework */; };
 		082DBC121ABDB78E002A0CAE /* LMCloudFileBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 082DBC111ABDB78E002A0CAE /* LMCloudFileBrowserTests.m */; };
+		0875DE231ABDB9250042A417 /* LMCloudFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 0875DE211ABDB9250042A417 /* LMCloudFile.h */; };
+		0875DE241ABDB9250042A417 /* LMCloudFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0875DE221ABDB9250042A417 /* LMCloudFile.m */; };
+		0875DE281ABDD4090042A417 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0875DE271ABDD4090042A417 /* Security.framework */; };
+		0875DE2A1ABDD40E0042A417 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0875DE291ABDD40E0042A417 /* QuartzCore.framework */; };
+		0875DE2C1ABDD4620042A417 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0875DE2B1ABDD4620042A417 /* CoreGraphics.framework */; };
+		0875DE301ABDD52A0042A417 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0875DE2F1ABDD52A0042A417 /* UIKit.framework */; };
+		0875DE331ABDD61D0042A417 /* LMDropboxHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0875DE311ABDD61D0042A417 /* LMDropboxHelper.h */; };
+		0875DE341ABDD61D0042A417 /* LMDropboxHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0875DE321ABDD61D0042A417 /* LMDropboxHelper.m */; };
+		0875DE371ABDD64F0042A417 /* LMCloudProviderHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0875DE351ABDD64F0042A417 /* LMCloudProviderHelper.h */; };
+		0875DE381ABDD64F0042A417 /* LMCloudProviderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0875DE361ABDD64F0042A417 /* LMCloudProviderHelper.m */; };
+		0875DE3A1ABDD73E0042A417 /* Dropbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0875DE391ABDD73E0042A417 /* Dropbox.framework */; };
+		0875DE3C1ABDD7670042A417 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0875DE3B1ABDD7670042A417 /* CFNetwork.framework */; };
+		0875DE3E1ABDD7730042A417 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0875DE3D1ABDD7730042A417 /* SystemConfiguration.framework */; };
+		0875DE401ABDD7830042A417 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0875DE3F1ABDD7830042A417 /* libc++.dylib */; };
+		0875DE421ABDD78D0042A417 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0875DE411ABDD78D0042A417 /* libz.dylib */; };
+		0875DE461ABDDB570042A417 /* LMFilePickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0875DE431ABDDB570042A417 /* LMFilePickerViewController.h */; };
+		0875DE471ABDDB570042A417 /* LMFilePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0875DE441ABDDB570042A417 /* LMFilePickerViewController.m */; };
+		0875DE481ABDDB570042A417 /* LMFilePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0875DE451ABDDB570042A417 /* LMFilePickerViewController.xib */; };
+		0875DE4D1ABDE0360042A417 /* LMCloudContentBrowserCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0875DE4A1ABDE0360042A417 /* LMCloudContentBrowserCell.h */; };
+		0875DE4E1ABDE0360042A417 /* LMCloudContentBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0875DE4B1ABDE0360042A417 /* LMCloudContentBrowserCell.m */; };
+		0875DE4F1ABDE0360042A417 /* LMCloudContentBrowserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0875DE4C1ABDE0360042A417 /* LMCloudContentBrowserCell.xib */; };
+		0875DE521ABDE1150042A417 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0875DE511ABDE1150042A417 /* Media.xcassets */; };
+		0875DE561ABDF6FF0042A417 /* LMQuickPreviewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0875DE531ABDF6FF0042A417 /* LMQuickPreviewViewController.h */; };
+		0875DE571ABDF6FF0042A417 /* LMQuickPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0875DE541ABDF6FF0042A417 /* LMQuickPreviewViewController.m */; };
+		0875DE581ABDF6FF0042A417 /* LMQuickPreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0875DE551ABDF6FF0042A417 /* LMQuickPreviewViewController.xib */; };
+		0875DE621ABE29FA0042A417 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0875DE611ABE29FA0042A417 /* main.m */; };
+		0875DE651ABE29FA0042A417 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0875DE641ABE29FA0042A417 /* AppDelegate.m */; };
+		0875DE681ABE29FA0042A417 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0875DE671ABE29FA0042A417 /* ViewController.m */; };
+		0875DE6B1ABE29FA0042A417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0875DE691ABE29FA0042A417 /* Main.storyboard */; };
+		0875DE6D1ABE29FA0042A417 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0875DE6C1ABE29FA0042A417 /* Images.xcassets */; };
+		0875DE701ABE29FA0042A417 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0875DE6E1ABE29FA0042A417 /* LaunchScreen.xib */; };
+		0875DE7C1ABE29FA0042A417 /* LMCloudFIleBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0875DE7B1ABE29FA0042A417 /* LMCloudFIleBrowserTests.m */; };
+		0875DE831ABE2AC60042A417 /* LMCloudFileBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082DBBFF1ABDB78E002A0CAE /* LMCloudFileBrowser.framework */; };
 		720A805C88590EFA9A4CA642 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA64B1907EE473091344E898 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		082DBC0C1ABDB78E002A0CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 082DBBF61ABDB78E002A0CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 082DBBFE1ABDB78E002A0CAE;
+			remoteInfo = LMCloudFileBrowser;
+		};
+		0875DE761ABE29FA0042A417 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 082DBBF61ABDB78E002A0CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0875DE5C1ABE29FA0042A417;
+			remoteInfo = LMCloudFIleBrowser;
+		};
+		0875DE841ABE2B120042A417 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 082DBBF61ABDB78E002A0CAE /* Project object */;
 			proxyType = 1;
@@ -30,6 +77,44 @@
 		082DBC0A1ABDB78E002A0CAE /* LMCloudFileBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMCloudFileBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		082DBC101ABDB78E002A0CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		082DBC111ABDB78E002A0CAE /* LMCloudFileBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMCloudFileBrowserTests.m; sourceTree = "<group>"; };
+		0875DE211ABDB9250042A417 /* LMCloudFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMCloudFile.h; sourceTree = "<group>"; };
+		0875DE221ABDB9250042A417 /* LMCloudFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMCloudFile.m; sourceTree = "<group>"; };
+		0875DE271ABDD4090042A417 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0875DE291ABDD40E0042A417 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0875DE2B1ABDD4620042A417 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0875DE2F1ABDD52A0042A417 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0875DE311ABDD61D0042A417 /* LMDropboxHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMDropboxHelper.h; sourceTree = "<group>"; };
+		0875DE321ABDD61D0042A417 /* LMDropboxHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMDropboxHelper.m; sourceTree = "<group>"; };
+		0875DE351ABDD64F0042A417 /* LMCloudProviderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMCloudProviderHelper.h; sourceTree = "<group>"; };
+		0875DE361ABDD64F0042A417 /* LMCloudProviderHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMCloudProviderHelper.m; sourceTree = "<group>"; };
+		0875DE391ABDD73E0042A417 /* Dropbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Dropbox.framework; sourceTree = "<group>"; };
+		0875DE3B1ABDD7670042A417 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0875DE3D1ABDD7730042A417 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0875DE3F1ABDD7830042A417 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		0875DE411ABDD78D0042A417 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0875DE431ABDDB570042A417 /* LMFilePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMFilePickerViewController.h; sourceTree = "<group>"; };
+		0875DE441ABDDB570042A417 /* LMFilePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMFilePickerViewController.m; sourceTree = "<group>"; };
+		0875DE451ABDDB570042A417 /* LMFilePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMFilePickerViewController.xib; sourceTree = "<group>"; };
+		0875DE4A1ABDE0360042A417 /* LMCloudContentBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMCloudContentBrowserCell.h; sourceTree = "<group>"; };
+		0875DE4B1ABDE0360042A417 /* LMCloudContentBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMCloudContentBrowserCell.m; sourceTree = "<group>"; };
+		0875DE4C1ABDE0360042A417 /* LMCloudContentBrowserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMCloudContentBrowserCell.xib; sourceTree = "<group>"; };
+		0875DE511ABDE1150042A417 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		0875DE531ABDF6FF0042A417 /* LMQuickPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMQuickPreviewViewController.h; sourceTree = "<group>"; };
+		0875DE541ABDF6FF0042A417 /* LMQuickPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMQuickPreviewViewController.m; sourceTree = "<group>"; };
+		0875DE551ABDF6FF0042A417 /* LMQuickPreviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMQuickPreviewViewController.xib; sourceTree = "<group>"; };
+		0875DE5D1ABE29FA0042A417 /* LMCloudFIleBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMCloudFIleBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0875DE601ABE29FA0042A417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0875DE611ABE29FA0042A417 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0875DE631ABE29FA0042A417 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0875DE641ABE29FA0042A417 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0875DE661ABE29FA0042A417 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0875DE671ABE29FA0042A417 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0875DE6A1ABE29FA0042A417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0875DE6C1ABE29FA0042A417 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0875DE6F1ABE29FA0042A417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0875DE751ABE29FA0042A417 /* LMCloudFIleBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMCloudFIleBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0875DE7A1ABE29FA0042A417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0875DE7B1ABE29FA0042A417 /* LMCloudFIleBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMCloudFIleBrowserTests.m; sourceTree = "<group>"; };
 		6CDEE175808DF39677D6FA58 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B27A6B775F8E869646321FA4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DA64B1907EE473091344E898 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +125,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0875DE421ABDD78D0042A417 /* libz.dylib in Frameworks */,
+				0875DE401ABDD7830042A417 /* libc++.dylib in Frameworks */,
+				0875DE3E1ABDD7730042A417 /* SystemConfiguration.framework in Frameworks */,
+				0875DE3C1ABDD7670042A417 /* CFNetwork.framework in Frameworks */,
+				0875DE301ABDD52A0042A417 /* UIKit.framework in Frameworks */,
+				0875DE3A1ABDD73E0042A417 /* Dropbox.framework in Frameworks */,
+				0875DE2A1ABDD40E0042A417 /* QuartzCore.framework in Frameworks */,
+				0875DE281ABDD4090042A417 /* Security.framework in Frameworks */,
+				0875DE2C1ABDD4620042A417 /* CoreGraphics.framework in Frameworks */,
 				720A805C88590EFA9A4CA642 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,14 +146,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0875DE5A1ABE29FA0042A417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0875DE831ABE2AC60042A417 /* LMCloudFileBrowser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0875DE721ABE29FA0042A417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		082DBBF51ABDB78E002A0CAE = {
 			isa = PBXGroup;
 			children = (
+				0875DE501ABDE1050042A417 /* Resources */,
 				082DBC011ABDB78E002A0CAE /* LMCloudFileBrowser */,
 				082DBC0E1ABDB78E002A0CAE /* LMCloudFileBrowserTests */,
+				0875DE5E1ABE29FA0042A417 /* LMCloudFIleBrowser */,
+				0875DE781ABE29FA0042A417 /* LMCloudFIleBrowserTests */,
 				082DBC001ABDB78E002A0CAE /* Products */,
 				CFBCB8B51E45BAF969A30CDD /* Pods */,
 				67C417ED593B608E1ED3D335 /* Frameworks */,
@@ -71,6 +183,8 @@
 			children = (
 				082DBBFF1ABDB78E002A0CAE /* LMCloudFileBrowser.framework */,
 				082DBC0A1ABDB78E002A0CAE /* LMCloudFileBrowserTests.xctest */,
+				0875DE5D1ABE29FA0042A417 /* LMCloudFIleBrowser.app */,
+				0875DE751ABE29FA0042A417 /* LMCloudFIleBrowserTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,13 +227,94 @@
 		082DBC1B1ABDB7CF002A0CAE /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				0875DE491ABDE0360042A417 /* Views */,
+				0875DE211ABDB9250042A417 /* LMCloudFile.h */,
+				0875DE221ABDB9250042A417 /* LMCloudFile.m */,
+				0875DE311ABDD61D0042A417 /* LMDropboxHelper.h */,
+				0875DE321ABDD61D0042A417 /* LMDropboxHelper.m */,
+				0875DE351ABDD64F0042A417 /* LMCloudProviderHelper.h */,
+				0875DE361ABDD64F0042A417 /* LMCloudProviderHelper.m */,
+				0875DE431ABDDB570042A417 /* LMFilePickerViewController.h */,
+				0875DE441ABDDB570042A417 /* LMFilePickerViewController.m */,
+				0875DE451ABDDB570042A417 /* LMFilePickerViewController.xib */,
+				0875DE531ABDF6FF0042A417 /* LMQuickPreviewViewController.h */,
+				0875DE541ABDF6FF0042A417 /* LMQuickPreviewViewController.m */,
+				0875DE551ABDF6FF0042A417 /* LMQuickPreviewViewController.xib */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		0875DE491ABDE0360042A417 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0875DE4A1ABDE0360042A417 /* LMCloudContentBrowserCell.h */,
+				0875DE4B1ABDE0360042A417 /* LMCloudContentBrowserCell.m */,
+				0875DE4C1ABDE0360042A417 /* LMCloudContentBrowserCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0875DE501ABDE1050042A417 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0875DE511ABDE1150042A417 /* Media.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0875DE5E1ABE29FA0042A417 /* LMCloudFIleBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				0875DE631ABE29FA0042A417 /* AppDelegate.h */,
+				0875DE641ABE29FA0042A417 /* AppDelegate.m */,
+				0875DE661ABE29FA0042A417 /* ViewController.h */,
+				0875DE671ABE29FA0042A417 /* ViewController.m */,
+				0875DE691ABE29FA0042A417 /* Main.storyboard */,
+				0875DE6C1ABE29FA0042A417 /* Images.xcassets */,
+				0875DE6E1ABE29FA0042A417 /* LaunchScreen.xib */,
+				0875DE5F1ABE29FA0042A417 /* Supporting Files */,
+			);
+			path = LMCloudFIleBrowser;
+			sourceTree = "<group>";
+		};
+		0875DE5F1ABE29FA0042A417 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0875DE601ABE29FA0042A417 /* Info.plist */,
+				0875DE611ABE29FA0042A417 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0875DE781ABE29FA0042A417 /* LMCloudFIleBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				0875DE7B1ABE29FA0042A417 /* LMCloudFIleBrowserTests.m */,
+				0875DE791ABE29FA0042A417 /* Supporting Files */,
+			);
+			path = LMCloudFIleBrowserTests;
+			sourceTree = "<group>";
+		};
+		0875DE791ABE29FA0042A417 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0875DE7A1ABE29FA0042A417 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		67C417ED593B608E1ED3D335 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0875DE411ABDD78D0042A417 /* libz.dylib */,
+				0875DE3F1ABDD7830042A417 /* libc++.dylib */,
+				0875DE3D1ABDD7730042A417 /* SystemConfiguration.framework */,
+				0875DE3B1ABDD7670042A417 /* CFNetwork.framework */,
+				0875DE391ABDD73E0042A417 /* Dropbox.framework */,
+				0875DE2F1ABDD52A0042A417 /* UIKit.framework */,
+				0875DE2B1ABDD4620042A417 /* CoreGraphics.framework */,
+				0875DE291ABDD40E0042A417 /* QuartzCore.framework */,
+				0875DE271ABDD4090042A417 /* Security.framework */,
 				DA64B1907EE473091344E898 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -141,7 +336,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0875DE4D1ABDE0360042A417 /* LMCloudContentBrowserCell.h in Headers */,
+				0875DE371ABDD64F0042A417 /* LMCloudProviderHelper.h in Headers */,
 				082DBC051ABDB78E002A0CAE /* LMCloudFileBrowser.h in Headers */,
+				0875DE561ABDF6FF0042A417 /* LMQuickPreviewViewController.h in Headers */,
+				0875DE231ABDB9250042A417 /* LMCloudFile.h in Headers */,
+				0875DE331ABDD61D0042A417 /* LMDropboxHelper.h in Headers */,
+				0875DE461ABDDB570042A417 /* LMFilePickerViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +387,42 @@
 			productReference = 082DBC0A1ABDB78E002A0CAE /* LMCloudFileBrowserTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0875DE5C1ABE29FA0042A417 /* LMCloudFIleBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0875DE7D1ABE29FA0042A417 /* Build configuration list for PBXNativeTarget "LMCloudFIleBrowser" */;
+			buildPhases = (
+				0875DE591ABE29FA0042A417 /* Sources */,
+				0875DE5A1ABE29FA0042A417 /* Frameworks */,
+				0875DE5B1ABE29FA0042A417 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0875DE851ABE2B120042A417 /* PBXTargetDependency */,
+			);
+			name = LMCloudFIleBrowser;
+			productName = LMCloudFIleBrowser;
+			productReference = 0875DE5D1ABE29FA0042A417 /* LMCloudFIleBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0875DE741ABE29FA0042A417 /* LMCloudFIleBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0875DE801ABE29FA0042A417 /* Build configuration list for PBXNativeTarget "LMCloudFIleBrowserTests" */;
+			buildPhases = (
+				0875DE711ABE29FA0042A417 /* Sources */,
+				0875DE721ABE29FA0042A417 /* Frameworks */,
+				0875DE731ABE29FA0042A417 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0875DE771ABE29FA0042A417 /* PBXTargetDependency */,
+			);
+			name = LMCloudFIleBrowserTests;
+			productName = LMCloudFIleBrowserTests;
+			productReference = 0875DE751ABE29FA0042A417 /* LMCloudFIleBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,6 +438,13 @@
 					082DBC091ABDB78E002A0CAE = {
 						CreatedOnToolsVersion = 6.2;
 					};
+					0875DE5C1ABE29FA0042A417 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					0875DE741ABE29FA0042A417 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 0875DE5C1ABE29FA0042A417;
+					};
 				};
 			};
 			buildConfigurationList = 082DBBF91ABDB78E002A0CAE /* Build configuration list for PBXProject "LMCloudFileBrowser" */;
@@ -209,6 +453,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 082DBBF51ABDB78E002A0CAE;
 			productRefGroup = 082DBC001ABDB78E002A0CAE /* Products */;
@@ -217,6 +462,8 @@
 			targets = (
 				082DBBFE1ABDB78E002A0CAE /* LMCloudFileBrowser */,
 				082DBC091ABDB78E002A0CAE /* LMCloudFileBrowserTests */,
+				0875DE5C1ABE29FA0042A417 /* LMCloudFIleBrowser */,
+				0875DE741ABE29FA0042A417 /* LMCloudFIleBrowserTests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,10 +473,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0875DE581ABDF6FF0042A417 /* LMQuickPreviewViewController.xib in Resources */,
+				0875DE481ABDDB570042A417 /* LMFilePickerViewController.xib in Resources */,
+				0875DE521ABDE1150042A417 /* Media.xcassets in Resources */,
+				0875DE4F1ABDE0360042A417 /* LMCloudContentBrowserCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		082DBC081ABDB78E002A0CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0875DE5B1ABE29FA0042A417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0875DE6B1ABE29FA0042A417 /* Main.storyboard in Resources */,
+				0875DE701ABE29FA0042A417 /* LaunchScreen.xib in Resources */,
+				0875DE6D1ABE29FA0042A417 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0875DE731ABE29FA0042A417 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -276,6 +544,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0875DE4E1ABDE0360042A417 /* LMCloudContentBrowserCell.m in Sources */,
+				0875DE241ABDB9250042A417 /* LMCloudFile.m in Sources */,
+				0875DE471ABDDB570042A417 /* LMFilePickerViewController.m in Sources */,
+				0875DE381ABDD64F0042A417 /* LMCloudProviderHelper.m in Sources */,
+				0875DE571ABDF6FF0042A417 /* LMQuickPreviewViewController.m in Sources */,
+				0875DE341ABDD61D0042A417 /* LMDropboxHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +561,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0875DE591ABE29FA0042A417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0875DE681ABE29FA0042A417 /* ViewController.m in Sources */,
+				0875DE651ABE29FA0042A417 /* AppDelegate.m in Sources */,
+				0875DE621ABE29FA0042A417 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0875DE711ABE29FA0042A417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0875DE7C1ABE29FA0042A417 /* LMCloudFIleBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -295,7 +587,36 @@
 			target = 082DBBFE1ABDB78E002A0CAE /* LMCloudFileBrowser */;
 			targetProxy = 082DBC0C1ABDB78E002A0CAE /* PBXContainerItemProxy */;
 		};
+		0875DE771ABE29FA0042A417 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0875DE5C1ABE29FA0042A417 /* LMCloudFIleBrowser */;
+			targetProxy = 0875DE761ABE29FA0042A417 /* PBXContainerItemProxy */;
+		};
+		0875DE851ABE2B120042A417 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 082DBBFE1ABDB78E002A0CAE /* LMCloudFileBrowser */;
+			targetProxy = 0875DE841ABE2B120042A417 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0875DE691ABE29FA0042A417 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0875DE6A1ABE29FA0042A417 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0875DE6E1ABE29FA0042A417 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0875DE6F1ABE29FA0042A417 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		082DBC131ABDB78E002A0CAE /* Debug */ = {
@@ -390,6 +711,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LMCloudFileBrowser/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -406,6 +731,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LMCloudFileBrowser/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -444,6 +773,66 @@
 			};
 			name = Release;
 		};
+		0875DE7E1ABE29FA0042A417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LMCloudFIleBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0875DE7F1ABE29FA0042A417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMCloudFIleBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0875DE811ABE29FA0042A417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LMCloudFIleBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMCloudFIleBrowser.app/LMCloudFIleBrowser";
+			};
+			name = Debug;
+		};
+		0875DE821ABE29FA0042A417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LMCloudFIleBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMCloudFIleBrowser.app/LMCloudFIleBrowser";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -473,6 +862,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		0875DE7D1ABE29FA0042A417 /* Build configuration list for PBXNativeTarget "LMCloudFIleBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0875DE7E1ABE29FA0042A417 /* Debug */,
+				0875DE7F1ABE29FA0042A417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0875DE801ABE29FA0042A417 /* Build configuration list for PBXNativeTarget "LMCloudFIleBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0875DE811ABE29FA0042A417 /* Debug */,
+				0875DE821ABE29FA0042A417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

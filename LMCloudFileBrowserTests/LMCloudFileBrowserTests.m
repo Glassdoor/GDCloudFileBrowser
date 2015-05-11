@@ -1,6 +1,6 @@
 //
-//  LMCloudFileBrowserTests.m
-//  LMCloudFileBrowserTests
+//  LMCloudFIleBrowserTests.m
+//  LMCloudFIleBrowserTests
 //
 //  Created by Linto Mathew on 3/21/15.
 //  Copyright (c) 2015 Linto Mathew. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface LMCloudFileBrowserTests : XCTestCase
+@interface LMCloudFIleBrowserTests : XCTestCase
 
 @end
 
-@implementation LMCloudFileBrowserTests
+@implementation LMCloudFIleBrowserTests
 
 - (void)setUp {
     [super setUp];

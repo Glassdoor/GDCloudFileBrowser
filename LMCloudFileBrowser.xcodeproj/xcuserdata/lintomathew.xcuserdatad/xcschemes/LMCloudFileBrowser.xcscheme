@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "082DBBFE1ABDB78E002A0CAE"
-               BuildableName = "LMCloudFileBrowser.framework"
-               BlueprintName = "LMCloudFileBrowser"
+               BlueprintIdentifier = "0875DE5C1ABE29FA0042A417"
+               BuildableName = "LMCloudFIleBrowser.app"
+               BlueprintName = "LMCloudFIleBrowser"
                ReferencedContainer = "container:LMCloudFileBrowser.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "082DBC091ABDB78E002A0CAE"
-               BuildableName = "LMCloudFileBrowserTests.xctest"
-               BlueprintName = "LMCloudFileBrowserTests"
+               BlueprintIdentifier = "0875DE741ABE29FA0042A417"
+               BuildableName = "LMCloudFIleBrowserTests.xctest"
+               BlueprintName = "LMCloudFIleBrowserTests"
                ReferencedContainer = "container:LMCloudFileBrowser.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "082DBC091ABDB78E002A0CAE"
-               BuildableName = "LMCloudFileBrowserTests.xctest"
-               BlueprintName = "LMCloudFileBrowserTests"
+               BlueprintIdentifier = "0875DE741ABE29FA0042A417"
+               BuildableName = "LMCloudFIleBrowserTests.xctest"
+               BlueprintName = "LMCloudFIleBrowserTests"
                ReferencedContainer = "container:LMCloudFileBrowser.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "082DBBFE1ABDB78E002A0CAE"
-            BuildableName = "LMCloudFileBrowser.framework"
-            BlueprintName = "LMCloudFileBrowser"
+            BlueprintIdentifier = "0875DE5C1ABE29FA0042A417"
+            BuildableName = "LMCloudFIleBrowser.app"
+            BlueprintName = "LMCloudFIleBrowser"
             ReferencedContainer = "container:LMCloudFileBrowser.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,15 +72,16 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "082DBBFE1ABDB78E002A0CAE"
-            BuildableName = "LMCloudFileBrowser.framework"
-            BlueprintName = "LMCloudFileBrowser"
+            BlueprintIdentifier = "0875DE5C1ABE29FA0042A417"
+            BuildableName = "LMCloudFIleBrowser.app"
+            BlueprintName = "LMCloudFIleBrowser"
             ReferencedContainer = "container:LMCloudFileBrowser.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,15 +91,16 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "082DBBFE1ABDB78E002A0CAE"
-            BuildableName = "LMCloudFileBrowser.framework"
-            BlueprintName = "LMCloudFileBrowser"
+            BlueprintIdentifier = "0875DE5C1ABE29FA0042A417"
+            BuildableName = "LMCloudFIleBrowser.app"
+            BlueprintName = "LMCloudFIleBrowser"
             ReferencedContainer = "container:LMCloudFileBrowser.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
