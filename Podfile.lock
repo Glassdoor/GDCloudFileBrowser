@@ -1,13 +1,10 @@
 PODS:
-  - LiveSDK (5.6.1)
   - MBProgressHUD (0.9.1)
 
 DEPENDENCIES:
-  - LiveSDK
   - MBProgressHUD (~> 0.8)
 
 SPEC CHECKSUMS:
-  LiveSDK: cffd0ebe3f97c8dbce07ffd43cfdd70d1ece6143
-  MBProgressHUD: f3747dcbd45a9e855a6b0674550651e0b7ed250c
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
 
-COCOAPODS: 0.36.0
+COCOAPODS: 0.37.1
