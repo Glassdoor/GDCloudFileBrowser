@@ -26,6 +26,7 @@
 		829BA7961B0EA1F700A39CA7 /* GDQuickPreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829BA78C1B0EA1F700A39CA7 /* GDQuickPreviewViewController.xib */; };
 		829BA7971B0EA1F700A39CA7 /* GDCloudContentBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 829BA78F1B0EA1F700A39CA7 /* GDCloudContentBrowserCell.m */; };
 		829BA7981B0EA1F700A39CA7 /* GDCloudContentBrowserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829BA7901B0EA1F700A39CA7 /* GDCloudContentBrowserCell.xib */; };
+		829BA79A1B0EA5B900A39CA7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0875DE291ABDD40E0042A417 /* QuartzCore.framework */; };
 		82F4829F1B0D1A3400B4FE1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0875DE2B1ABDD4620042A417 /* CoreGraphics.framework */; };
 		82F482A11B0D258A00B4FE1E /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82F482971B0D09F400B4FE1E /* Keys.plist */; };
 		82F482A31B0D621C00B4FE1E /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82F482A21B0D621C00B4FE1E /* GTMOAuth2ViewTouch.xib */; };
@@ -73,7 +74,6 @@
 
 /* Begin PBXFileReference section */
 		082DBC031ABDB78E002A0CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		082DBC041ABDB78E002A0CAE /* GDCloudFileBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GDCloudFileBrowser.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		082DBC101ABDB78E002A0CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		082DBC111ABDB78E002A0CAE /* GDCloudFileBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GDCloudFileBrowserTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		0875DE271ABDD4090042A417 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -105,6 +105,7 @@
 		829BA78E1B0EA1F700A39CA7 /* GDCloudContentBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDCloudContentBrowserCell.h; sourceTree = "<group>"; };
 		829BA78F1B0EA1F700A39CA7 /* GDCloudContentBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCloudContentBrowserCell.m; sourceTree = "<group>"; };
 		829BA7901B0EA1F700A39CA7 /* GDCloudContentBrowserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDCloudContentBrowserCell.xib; sourceTree = "<group>"; };
+		829BA79B1B0EA7E600A39CA7 /* GDCloudFileBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDCloudFileBrowser.h; sourceTree = "<group>"; };
 		82D889C51B0BCB29006C3A17 /* GTLDrive_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDrive_Sources.m; sourceTree = "<group>"; };
 		82D889C61B0BCB29006C3A17 /* GTLDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDrive.h; sourceTree = "<group>"; };
 		82D889D11B0BD6EE006C3A17 /* GDCloudFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GDCloudFile.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -131,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829BA79A1B0EA5B900A39CA7 /* QuartzCore.framework in Frameworks */,
 				829BA7821B0EA05D00A39CA7 /* libGTLTouchStaticLib.a in Frameworks */,
 				829BA7771B0E9FBC00A39CA7 /* DropboxSDK.framework in Frameworks */,
 				82F4829F1B0D1A3400B4FE1E /* CoreGraphics.framework in Frameworks */,
@@ -180,7 +182,6 @@
 				0875DE6C1ABE29FA0042A417 /* Images.xcassets */,
 				0875DE6E1ABE29FA0042A417 /* LaunchScreen.xib */,
 				82D889D01B0BD6EE006C3A17 /* Core */,
-				082DBC041ABDB78E002A0CAE /* GDCloudFileBrowser.h */,
 				082DBC021ABDB78E002A0CAE /* Supporting Files */,
 			);
 			path = GDCloudFileBrowser;
@@ -280,6 +281,7 @@
 		82D889D01B0BD6EE006C3A17 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				829BA79B1B0EA7E600A39CA7 /* GDCloudFileBrowser.h */,
 				82D889D11B0BD6EE006C3A17 /* GDCloudFile.h */,
 				82D889D21B0BD6EE006C3A17 /* GDCloudFile.m */,
 				82D889D31B0BD6EE006C3A17 /* GDCloudProviderHelper.h */,

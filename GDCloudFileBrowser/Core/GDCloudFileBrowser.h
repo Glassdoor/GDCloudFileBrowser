@@ -7,6 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GDCloudFile.h"
+#import "GDCloudProviderHelper.h"
+#import "GDDropboxHelper.h"
+#import "GDGoogleDriveHelper.h"
+#import "KeysHelper.h"
 
 //! Project version number for GDCloudFileBrowser.
 FOUNDATION_EXPORT double GDCloudFileBrowserVersionNumber;
