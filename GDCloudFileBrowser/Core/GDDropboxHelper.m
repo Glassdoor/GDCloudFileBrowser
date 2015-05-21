@@ -1,6 +1,6 @@
 //
-//  LMDropboxHelper.m
-//  LMCloudFileBrowser
+//  GDDropboxHelper.m
+//  GDCloudFileBrowser
 //
 //  Created by Linto Mathew on 3/21/15.
 //  Copyright (c) 2015 Linto Mathew. All rights reserved.
@@ -10,7 +10,7 @@
 #import "KeysHelper.h"
 #import <DropboxSDK/DropboxSDK.h>
 
-NSString *const kLMDropboxLinkSuccessfull = @"LMDropboxLinkSuccessfull";
+NSString *const kGDDropboxLinkSuccessfull = @"GDDropboxLinkSuccessfull";
 
 @interface GDDropboxHelper () <DBRestClientDelegate, DBSessionDelegate>
 
@@ -38,7 +38,7 @@ NSString *const kLMDropboxLinkSuccessfull = @"LMDropboxLinkSuccessfull";
             self.restClient = [[DBRestClient alloc] initWithSession:[DBSession sharedSession]];
             self.restClient.delegate = self;
         } else {
-            [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didFinishLinkingAccount:) name:kLMDropboxLinkSuccessfull object:nil];
+            [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didFinishLinkingAccount:) name:kGDDropboxLinkSuccessfull object:nil];
         }
     }
     

@@ -1,6 +1,6 @@
 //
-//  LMGoogleDriveManager.h
-//  LMCloudFilePicker
+//  GDGoogleDriveManager.h
+//  GDCloudFilePicker
 //
 //  Created by Linto Mathew on 3/22/15.
 //  Copyright (c) 2015 Linto Mathew. All rights reserved.

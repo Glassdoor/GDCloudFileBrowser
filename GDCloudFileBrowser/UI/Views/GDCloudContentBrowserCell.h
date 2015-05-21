@@ -1,5 +1,5 @@
 //
-//  LMCloudContentBrowserCell.h
+//  GDCloudContentBrowserCell.h
 //
 //  Created by Linto Mathew on 7/17/14.
 //  Copyright (c) 2014 Glassdoor Inc. All rights reserved.

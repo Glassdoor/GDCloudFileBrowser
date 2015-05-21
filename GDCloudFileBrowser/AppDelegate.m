@@ -10,7 +10,7 @@
 #import "GDLandingViewController.h"
 #import <DropboxSDK/DropboxSDK.h>
 
-extern NSString *const kLMDropboxLinkSuccessfull;
+extern NSString *const kGDDropboxLinkSuccessfull;
 
 @interface AppDelegate ()
 
@@ -40,7 +40,7 @@ extern NSString *const kLMDropboxLinkSuccessfull;
     if ([[DBSession sharedSession] handleOpenURL:url]) {
         if ([[DBSession sharedSession] isLinked]) {
             NSLog(@"App linked successfully!");
-            [[NSNotificationCenter defaultCenter] postNotificationName:kLMDropboxLinkSuccessfull object:nil];
+            [[NSNotificationCenter defaultCenter] postNotificationName:kGDDropboxLinkSuccessfull object:nil];
         } else {
             NSLog(@"failed to link Dropbox. Check your Dropbox Client Id and Secret");
         }

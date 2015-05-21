@@ -27,7 +27,7 @@ typedef NS_ENUM(NSUInteger, GDFileType) {
 @interface GDCloudFile : NSObject
 
 /**
- provider A readonly property that shows the file type as an 'LMCloudProvider' enum
+ provider A readonly property that shows the file type as an 'GDCloudProvider' enum
  */
 @property (nonatomic, readonly) GDCloudProvider provider;
 
@@ -37,13 +37,13 @@ typedef NS_ENUM(NSUInteger, GDFileType) {
 @property (nonatomic, copy, readonly) NSString *fileName;
 
 /**
- lastModifiedDate The last modified date of a LMCloudFile, if available
+ lastModifiedDate The last modified date of a GDCloudFile, if available
  @returns a valid NSDate object if data is available. Otherwise nil.
  */
 @property (nonatomic, strong, readonly) NSDate *lastModifiedDate;
 
 /**
- lastModifiedTime The last modified date of a LMCloudFile as an NSString object, if available
+ lastModifiedTime The last modified date of a GDCloudFile as an NSString object, if available
  @returns a valid NSString object if data is available. Otherwise nil.
  */
 @property (nonatomic, copy, readonly) NSString *lastModifiedTime;
@@ -54,7 +54,7 @@ typedef NS_ENUM(NSUInteger, GDFileType) {
 @property (nonatomic, copy, readonly) NSString *fileExtension;
 
 /**
- pathStr The path to this LMCloudFile object as an NSString object.
+ pathStr The path to this GDCloudFile object as an NSString object.
  @returns nil if unavailable
  */
 @property (nonatomic, copy, readonly) NSString *pathStr;
@@ -66,7 +66,7 @@ typedef NS_ENUM(NSUInteger, GDFileType) {
 @property (nonatomic, strong, readonly) id path;
 
 /**
- size The size of the LMCloudFile in long long value
+ size The size of the GDCloudFile in long long value
  @returns 0 if unavailable
  */
 @property (nonatomic, readonly) long long size;
@@ -87,9 +87,9 @@ typedef NS_ENUM(NSUInteger, GDFileType) {
 @property (nonatomic, strong, readonly) id file;
 
 /**
- initWithProvider:file: Instantiate a LMCloudFile object with a file provide argument and the original file
+ initWithProvider:file: Instantiate a GDCloudFile object with a file provide argument and the original file
  @param file The original file or folder
- @param provider A 'LMCloudProvider' enum
+ @param provider A 'GDCloudProvider' enum
  @returns self
  */
 - (instancetype)initWithFile:(id)file provider:(GDCloudProvider)provider;

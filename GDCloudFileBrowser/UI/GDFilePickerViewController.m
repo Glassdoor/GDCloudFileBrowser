@@ -1,6 +1,6 @@
 //
-//  LMFilePickerViewController.m
-//  LMCloudFileBrowser
+//  GDFilePickerViewController.m
+//  GDCloudFileBrowser
 //
 //  Created by Linto Mathew on 3/21/15.
 //  Copyright (c) 2015 Linto Mathew. All rights reserved.
@@ -179,7 +179,7 @@ static NSString *const kTableViewCellReuseIdentifier = @"TableView Cell Reuse Id
     return cell;
 }
 
-#pragma mark - <LMCloudProviderDelegate>
+#pragma mark - <GDCloudProviderDelegate>
 - (void)googleDriveAuthenticationFinishedWithError:(NSError *)error {
     if (error) {
         [[[UIAlertView alloc] initWithTitle:@"" message:error.localizedDescription delegate:nil cancelButtonTitle:NSLocalizedString(@"OK", nil) otherButtonTitles:nil] show];
@@ -196,7 +196,7 @@ static NSString *const kTableViewCellReuseIdentifier = @"TableView Cell Reuse Id
     }
 }
 
-#pragma mark - <LMQuickPreviewDelegate>
+#pragma mark - <GDQuickPreviewDelegate>
 - (void)userSelectedDropboxFileWithURL:(NSString *)url data:(NSData *)fileData relativePath:(NSString *)relativePath name:(NSString *)fileName {
     if ([self.delegate respondsToSelector:@selector(userPickedFileWithURL:data:fileUri:name:)]) {
         [self.delegate userPickedFileWithURL:[NSURL URLWithString:url] data:fileData fileUri:relativePath name:fileName];

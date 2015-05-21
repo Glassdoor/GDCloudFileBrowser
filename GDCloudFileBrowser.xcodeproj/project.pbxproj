@@ -9,29 +9,28 @@
 /* Begin PBXBuildFile section */
 		0875DE621ABE29FA0042A417 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0875DE611ABE29FA0042A417 /* main.m */; };
 		0875DE651ABE29FA0042A417 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0875DE641ABE29FA0042A417 /* AppDelegate.m */; };
-		0875DE681ABE29FA0042A417 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0875DE671ABE29FA0042A417 /* ViewController.m */; };
 		0875DE6D1ABE29FA0042A417 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0875DE6C1ABE29FA0042A417 /* Images.xcassets */; };
 		829BA7771B0E9FBC00A39CA7 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F4829C1B0D0C3800B4FE1E /* DropboxSDK.framework */; };
-		829BA7781B0E9FE000A39CA7 /* GDLandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889DD1B0BD6EE006C3A17 /* GDLandingViewController.m */; };
-		829BA7791B0E9FEC00A39CA7 /* GDFilePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889D81B0BD6EE006C3A17 /* GDFilePickerViewController.m */; };
-		829BA77A1B0E9FFC00A39CA7 /* GDCloudContentBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889E61B0BD6EE006C3A17 /* GDCloudContentBrowserCell.m */; };
 		829BA77B1B0EA01400A39CA7 /* GDCloudFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889D21B0BD6EE006C3A17 /* GDCloudFile.m */; };
 		829BA77C1B0EA01400A39CA7 /* GDCloudProviderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889D41B0BD6EE006C3A17 /* GDCloudProviderHelper.m */; };
 		829BA77D1B0EA01400A39CA7 /* GDDropboxHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889D61B0BD6EE006C3A17 /* GDDropboxHelper.m */; };
 		829BA77E1B0EA01400A39CA7 /* GDGoogleDriveHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889DB1B0BD6EE006C3A17 /* GDGoogleDriveHelper.m */; };
-		829BA77F1B0EA01400A39CA7 /* GDQuickPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889E01B0BD6EE006C3A17 /* GDQuickPreviewViewController.m */; };
 		829BA7801B0EA01400A39CA7 /* KeysHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889E31B0BD6EE006C3A17 /* KeysHelper.m */; };
 		829BA7811B0EA02700A39CA7 /* GTLDrive_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889C51B0BCB29006C3A17 /* GTLDrive_Sources.m */; };
 		829BA7821B0EA05D00A39CA7 /* libGTLTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D88B961B0BF12E006C3A17 /* libGTLTouchStaticLib.a */; };
+		829BA7911B0EA1F700A39CA7 /* GDFilePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829BA7851B0EA1F700A39CA7 /* GDFilePickerViewController.m */; };
+		829BA7921B0EA1F700A39CA7 /* GDFilePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829BA7861B0EA1F700A39CA7 /* GDFilePickerViewController.xib */; };
+		829BA7931B0EA1F700A39CA7 /* GDLandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829BA7881B0EA1F700A39CA7 /* GDLandingViewController.m */; };
+		829BA7941B0EA1F700A39CA7 /* GDLandingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829BA7891B0EA1F700A39CA7 /* GDLandingViewController.xib */; };
+		829BA7951B0EA1F700A39CA7 /* GDQuickPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829BA78B1B0EA1F700A39CA7 /* GDQuickPreviewViewController.m */; };
+		829BA7961B0EA1F700A39CA7 /* GDQuickPreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829BA78C1B0EA1F700A39CA7 /* GDQuickPreviewViewController.xib */; };
+		829BA7971B0EA1F700A39CA7 /* GDCloudContentBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 829BA78F1B0EA1F700A39CA7 /* GDCloudContentBrowserCell.m */; };
+		829BA7981B0EA1F700A39CA7 /* GDCloudContentBrowserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829BA7901B0EA1F700A39CA7 /* GDCloudContentBrowserCell.xib */; };
 		82F4829F1B0D1A3400B4FE1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0875DE2B1ABDD4620042A417 /* CoreGraphics.framework */; };
-		82F482A01B0D24AD00B4FE1E /* GDLandingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82D889DE1B0BD6EE006C3A17 /* GDLandingViewController.xib */; };
 		82F482A11B0D258A00B4FE1E /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82F482971B0D09F400B4FE1E /* Keys.plist */; };
 		82F482A31B0D621C00B4FE1E /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82F482A21B0D621C00B4FE1E /* GTMOAuth2ViewTouch.xib */; };
 		82FC07F11B0C0ADA004E95A6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0875DE271ABDD4090042A417 /* Security.framework */; };
 		82FC07F21B0C0AE2004E95A6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0875DE3D1ABDD7730042A417 /* SystemConfiguration.framework */; };
-		82FC07F61B0D033F004E95A6 /* GDFilePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82D889D91B0BD6EE006C3A17 /* GDFilePickerViewController.xib */; };
-		82FC07F71B0D034A004E95A6 /* GDQuickPreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82D889E11B0BD6EE006C3A17 /* GDQuickPreviewViewController.xib */; };
-		82FC08031B0D03D7004E95A6 /* GDCloudContentBrowserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82D889E71B0BD6EE006C3A17 /* GDCloudContentBrowserCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,9 +73,9 @@
 
 /* Begin PBXFileReference section */
 		082DBC031ABDB78E002A0CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		082DBC041ABDB78E002A0CAE /* GDCloudFileBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDCloudFileBrowser.h; sourceTree = "<group>"; };
+		082DBC041ABDB78E002A0CAE /* GDCloudFileBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GDCloudFileBrowser.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		082DBC101ABDB78E002A0CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		082DBC111ABDB78E002A0CAE /* GDCloudFileBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDCloudFileBrowserTests.m; sourceTree = "<group>"; };
+		082DBC111ABDB78E002A0CAE /* GDCloudFileBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GDCloudFileBrowserTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		0875DE271ABDD4090042A417 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		0875DE291ABDD40E0042A417 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0875DE2B1ABDD4620042A417 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -86,40 +85,38 @@
 		0875DE3F1ABDD7830042A417 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		0875DE411ABDD78D0042A417 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		0875DE5D1ABE29FA0042A417 /* GDCloudFIleBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDCloudFIleBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0875DE611ABE29FA0042A417 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../GDCloudFIleBrowser/main.m; sourceTree = "<group>"; };
+		0875DE611ABE29FA0042A417 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = main.m; path = ../GDCloudFIleBrowser/main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		0875DE631ABE29FA0042A417 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../GDCloudFIleBrowser/AppDelegate.h; sourceTree = "<group>"; };
 		0875DE641ABE29FA0042A417 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../GDCloudFIleBrowser/AppDelegate.m; sourceTree = "<group>"; };
-		0875DE661ABE29FA0042A417 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../GDCloudFIleBrowser/ViewController.h; sourceTree = "<group>"; };
-		0875DE671ABE29FA0042A417 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../GDCloudFIleBrowser/ViewController.m; sourceTree = "<group>"; };
 		0875DE6C1ABE29FA0042A417 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../GDCloudFIleBrowser/Images.xcassets; sourceTree = "<group>"; };
 		0875DE6F1ABE29FA0042A417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0875DE751ABE29FA0042A417 /* GDCloudFIleBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDCloudFIleBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDEE175808DF39677D6FA58 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		829BA7731B0E93E800A39CA7 /* Keys-example.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Keys-example.plist"; sourceTree = "<group>"; };
+		829BA7841B0EA1F700A39CA7 /* GDFilePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GDFilePickerViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		829BA7851B0EA1F700A39CA7 /* GDFilePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GDFilePickerViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		829BA7861B0EA1F700A39CA7 /* GDFilePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDFilePickerViewController.xib; sourceTree = "<group>"; };
+		829BA7871B0EA1F700A39CA7 /* GDLandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GDLandingViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		829BA7881B0EA1F700A39CA7 /* GDLandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GDLandingViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		829BA7891B0EA1F700A39CA7 /* GDLandingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDLandingViewController.xib; sourceTree = "<group>"; };
+		829BA78A1B0EA1F700A39CA7 /* GDQuickPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDQuickPreviewViewController.h; sourceTree = "<group>"; };
+		829BA78B1B0EA1F700A39CA7 /* GDQuickPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDQuickPreviewViewController.m; sourceTree = "<group>"; };
+		829BA78C1B0EA1F700A39CA7 /* GDQuickPreviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDQuickPreviewViewController.xib; sourceTree = "<group>"; };
+		829BA78E1B0EA1F700A39CA7 /* GDCloudContentBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDCloudContentBrowserCell.h; sourceTree = "<group>"; };
+		829BA78F1B0EA1F700A39CA7 /* GDCloudContentBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCloudContentBrowserCell.m; sourceTree = "<group>"; };
+		829BA7901B0EA1F700A39CA7 /* GDCloudContentBrowserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDCloudContentBrowserCell.xib; sourceTree = "<group>"; };
 		82D889C51B0BCB29006C3A17 /* GTLDrive_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDrive_Sources.m; sourceTree = "<group>"; };
 		82D889C61B0BCB29006C3A17 /* GTLDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDrive.h; sourceTree = "<group>"; };
-		82D889D11B0BD6EE006C3A17 /* GDCloudFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDCloudFile.h; sourceTree = "<group>"; };
+		82D889D11B0BD6EE006C3A17 /* GDCloudFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GDCloudFile.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		82D889D21B0BD6EE006C3A17 /* GDCloudFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCloudFile.m; sourceTree = "<group>"; };
-		82D889D31B0BD6EE006C3A17 /* GDCloudProviderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDCloudProviderHelper.h; sourceTree = "<group>"; };
-		82D889D41B0BD6EE006C3A17 /* GDCloudProviderHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCloudProviderHelper.m; sourceTree = "<group>"; };
-		82D889D51B0BD6EE006C3A17 /* GDDropboxHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDDropboxHelper.h; sourceTree = "<group>"; };
-		82D889D61B0BD6EE006C3A17 /* GDDropboxHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDDropboxHelper.m; sourceTree = "<group>"; };
-		82D889D71B0BD6EE006C3A17 /* GDFilePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDFilePickerViewController.h; sourceTree = "<group>"; };
-		82D889D81B0BD6EE006C3A17 /* GDFilePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDFilePickerViewController.m; sourceTree = "<group>"; };
-		82D889D91B0BD6EE006C3A17 /* GDFilePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDFilePickerViewController.xib; sourceTree = "<group>"; };
-		82D889DA1B0BD6EE006C3A17 /* GDGoogleDriveHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDGoogleDriveHelper.h; sourceTree = "<group>"; };
-		82D889DB1B0BD6EE006C3A17 /* GDGoogleDriveHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDGoogleDriveHelper.m; sourceTree = "<group>"; };
-		82D889DC1B0BD6EE006C3A17 /* GDLandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDLandingViewController.h; sourceTree = "<group>"; };
-		82D889DD1B0BD6EE006C3A17 /* GDLandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDLandingViewController.m; sourceTree = "<group>"; };
-		82D889DE1B0BD6EE006C3A17 /* GDLandingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDLandingViewController.xib; sourceTree = "<group>"; };
-		82D889DF1B0BD6EE006C3A17 /* GDQuickPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDQuickPreviewViewController.h; sourceTree = "<group>"; };
-		82D889E01B0BD6EE006C3A17 /* GDQuickPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDQuickPreviewViewController.m; sourceTree = "<group>"; };
-		82D889E11B0BD6EE006C3A17 /* GDQuickPreviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDQuickPreviewViewController.xib; sourceTree = "<group>"; };
-		82D889E21B0BD6EE006C3A17 /* KeysHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeysHelper.h; sourceTree = "<group>"; };
-		82D889E31B0BD6EE006C3A17 /* KeysHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeysHelper.m; sourceTree = "<group>"; };
-		82D889E51B0BD6EE006C3A17 /* GDCloudContentBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDCloudContentBrowserCell.h; sourceTree = "<group>"; };
-		82D889E61B0BD6EE006C3A17 /* GDCloudContentBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCloudContentBrowserCell.m; sourceTree = "<group>"; };
-		82D889E71B0BD6EE006C3A17 /* GDCloudContentBrowserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDCloudContentBrowserCell.xib; sourceTree = "<group>"; };
+		82D889D31B0BD6EE006C3A17 /* GDCloudProviderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GDCloudProviderHelper.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		82D889D41B0BD6EE006C3A17 /* GDCloudProviderHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GDCloudProviderHelper.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		82D889D51B0BD6EE006C3A17 /* GDDropboxHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GDDropboxHelper.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		82D889D61B0BD6EE006C3A17 /* GDDropboxHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GDDropboxHelper.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		82D889DA1B0BD6EE006C3A17 /* GDGoogleDriveHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GDGoogleDriveHelper.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		82D889DB1B0BD6EE006C3A17 /* GDGoogleDriveHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GDGoogleDriveHelper.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		82D889E21B0BD6EE006C3A17 /* KeysHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KeysHelper.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		82D889E31B0BD6EE006C3A17 /* KeysHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = KeysHelper.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		82D88A0C1B0BF12D006C3A17 /* GTL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = GTL.xcodeproj; sourceTree = "<group>"; };
 		82D88BB01B0BFD38006C3A17 /* libGTLTouchStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGTLTouchStaticLib.a; path = "google-drive/libGTLTouchStaticLib.a"; sourceTree = "<group>"; };
 		82F482971B0D09F400B4FE1E /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
@@ -155,13 +152,13 @@
 		082DBBF51ABDB78E002A0CAE = {
 			isa = PBXGroup;
 			children = (
-				82D887C01B0BBEE4006C3A17 /* google-drive */,
-				0875DE501ABDE1050042A417 /* Resources */,
+				67C417ED593B608E1ED3D335 /* Frameworks */,
 				082DBC011ABDB78E002A0CAE /* GDCloudFileBrowser */,
 				082DBC0E1ABDB78E002A0CAE /* GDCloudFileBrowserTests */,
-				082DBC001ABDB78E002A0CAE /* Products */,
+				82D887C01B0BBEE4006C3A17 /* google-drive */,
 				CFBCB8B51E45BAF969A30CDD /* Pods */,
-				67C417ED593B608E1ED3D335 /* Frameworks */,
+				082DBC001ABDB78E002A0CAE /* Products */,
+				0875DE501ABDE1050042A417 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,10 +174,9 @@
 		082DBC011ABDB78E002A0CAE /* GDCloudFileBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				829BA7831B0EA1F700A39CA7 /* UI */,
 				0875DE631ABE29FA0042A417 /* AppDelegate.h */,
 				0875DE641ABE29FA0042A417 /* AppDelegate.m */,
-				0875DE661ABE29FA0042A417 /* ViewController.h */,
-				0875DE671ABE29FA0042A417 /* ViewController.m */,
 				0875DE6C1ABE29FA0042A417 /* Images.xcassets */,
 				0875DE6E1ABE29FA0042A417 /* LaunchScreen.xib */,
 				82D889D01B0BD6EE006C3A17 /* Core */,
@@ -243,6 +239,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		829BA7831B0EA1F700A39CA7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				829BA7841B0EA1F700A39CA7 /* GDFilePickerViewController.h */,
+				829BA7851B0EA1F700A39CA7 /* GDFilePickerViewController.m */,
+				829BA7861B0EA1F700A39CA7 /* GDFilePickerViewController.xib */,
+				829BA7871B0EA1F700A39CA7 /* GDLandingViewController.h */,
+				829BA7881B0EA1F700A39CA7 /* GDLandingViewController.m */,
+				829BA7891B0EA1F700A39CA7 /* GDLandingViewController.xib */,
+				829BA78A1B0EA1F700A39CA7 /* GDQuickPreviewViewController.h */,
+				829BA78B1B0EA1F700A39CA7 /* GDQuickPreviewViewController.m */,
+				829BA78C1B0EA1F700A39CA7 /* GDQuickPreviewViewController.xib */,
+				829BA78D1B0EA1F700A39CA7 /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		829BA78D1B0EA1F700A39CA7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				829BA78E1B0EA1F700A39CA7 /* GDCloudContentBrowserCell.h */,
+				829BA78F1B0EA1F700A39CA7 /* GDCloudContentBrowserCell.m */,
+				829BA7901B0EA1F700A39CA7 /* GDCloudContentBrowserCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		82D887C01B0BBEE4006C3A17 /* google-drive */ = {
 			isa = PBXGroup;
 			children = (
@@ -263,32 +286,12 @@
 				82D889D41B0BD6EE006C3A17 /* GDCloudProviderHelper.m */,
 				82D889D51B0BD6EE006C3A17 /* GDDropboxHelper.h */,
 				82D889D61B0BD6EE006C3A17 /* GDDropboxHelper.m */,
-				82D889D71B0BD6EE006C3A17 /* GDFilePickerViewController.h */,
-				82D889D81B0BD6EE006C3A17 /* GDFilePickerViewController.m */,
-				82D889D91B0BD6EE006C3A17 /* GDFilePickerViewController.xib */,
 				82D889DA1B0BD6EE006C3A17 /* GDGoogleDriveHelper.h */,
 				82D889DB1B0BD6EE006C3A17 /* GDGoogleDriveHelper.m */,
-				82D889DC1B0BD6EE006C3A17 /* GDLandingViewController.h */,
-				82D889DD1B0BD6EE006C3A17 /* GDLandingViewController.m */,
-				82D889DE1B0BD6EE006C3A17 /* GDLandingViewController.xib */,
-				82D889DF1B0BD6EE006C3A17 /* GDQuickPreviewViewController.h */,
-				82D889E01B0BD6EE006C3A17 /* GDQuickPreviewViewController.m */,
-				82D889E11B0BD6EE006C3A17 /* GDQuickPreviewViewController.xib */,
 				82D889E21B0BD6EE006C3A17 /* KeysHelper.h */,
 				82D889E31B0BD6EE006C3A17 /* KeysHelper.m */,
-				82D889E41B0BD6EE006C3A17 /* Views */,
 			);
 			path = Core;
-			sourceTree = "<group>";
-		};
-		82D889E41B0BD6EE006C3A17 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				82D889E51B0BD6EE006C3A17 /* GDCloudContentBrowserCell.h */,
-				82D889E61B0BD6EE006C3A17 /* GDCloudContentBrowserCell.m */,
-				82D889E71B0BD6EE006C3A17 /* GDCloudContentBrowserCell.xib */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		82D88A0B1B0BF12D006C3A17 /* Source */ = {
@@ -436,13 +439,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829BA7961B0EA1F700A39CA7 /* GDQuickPreviewViewController.xib in Resources */,
 				82F482A31B0D621C00B4FE1E /* GTMOAuth2ViewTouch.xib in Resources */,
+				829BA7941B0EA1F700A39CA7 /* GDLandingViewController.xib in Resources */,
 				82F482A11B0D258A00B4FE1E /* Keys.plist in Resources */,
-				82F482A01B0D24AD00B4FE1E /* GDLandingViewController.xib in Resources */,
-				82FC07F71B0D034A004E95A6 /* GDQuickPreviewViewController.xib in Resources */,
 				0875DE6D1ABE29FA0042A417 /* Images.xcassets in Resources */,
-				82FC07F61B0D033F004E95A6 /* GDFilePickerViewController.xib in Resources */,
-				82FC08031B0D03D7004E95A6 /* GDCloudContentBrowserCell.xib in Resources */,
+				829BA7921B0EA1F700A39CA7 /* GDFilePickerViewController.xib in Resources */,
+				829BA7981B0EA1F700A39CA7 /* GDCloudContentBrowserCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,17 +465,16 @@
 			files = (
 				829BA7811B0EA02700A39CA7 /* GTLDrive_Sources.m in Sources */,
 				829BA77B1B0EA01400A39CA7 /* GDCloudFile.m in Sources */,
+				829BA7951B0EA1F700A39CA7 /* GDQuickPreviewViewController.m in Sources */,
+				829BA7971B0EA1F700A39CA7 /* GDCloudContentBrowserCell.m in Sources */,
 				829BA77C1B0EA01400A39CA7 /* GDCloudProviderHelper.m in Sources */,
 				829BA77D1B0EA01400A39CA7 /* GDDropboxHelper.m in Sources */,
 				829BA77E1B0EA01400A39CA7 /* GDGoogleDriveHelper.m in Sources */,
-				829BA77F1B0EA01400A39CA7 /* GDQuickPreviewViewController.m in Sources */,
 				829BA7801B0EA01400A39CA7 /* KeysHelper.m in Sources */,
-				829BA77A1B0E9FFC00A39CA7 /* GDCloudContentBrowserCell.m in Sources */,
-				829BA7791B0E9FEC00A39CA7 /* GDFilePickerViewController.m in Sources */,
-				829BA7781B0E9FE000A39CA7 /* GDLandingViewController.m in Sources */,
-				0875DE681ABE29FA0042A417 /* ViewController.m in Sources */,
+				829BA7911B0EA1F700A39CA7 /* GDFilePickerViewController.m in Sources */,
 				0875DE651ABE29FA0042A417 /* AppDelegate.m in Sources */,
 				0875DE621ABE29FA0042A417 /* main.m in Sources */,
+				829BA7931B0EA1F700A39CA7 /* GDLandingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

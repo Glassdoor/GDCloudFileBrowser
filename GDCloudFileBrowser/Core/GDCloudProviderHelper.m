@@ -1,6 +1,6 @@
 //
-//  LMCloudProviderHelper.m
-//  LMCloudFileBrowser
+//  GDCloudProviderHelper.m
+//  GDCloudFileBrowser
 //
 //  Created by Linto Mathew on 3/21/15.
 //  Copyright (c) 2015 Linto Mathew. All rights reserved.

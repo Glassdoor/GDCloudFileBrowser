@@ -1,6 +1,6 @@
 //
-//  LMCloudFIleBrowserTests.m
-//  LMCloudFIleBrowserTests
+//  GDCloudFIleBrowserTests.m
+//  GDCloudFIleBrowserTests
 //
 //  Created by Linto Mathew on 3/21/15.
 //  Copyright (c) 2015 Linto Mathew. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface LMCloudFIleBrowserTests : XCTestCase
+@interface GDCloudFIleBrowserTests : XCTestCase
 
 @end
 
-@implementation LMCloudFIleBrowserTests
+@implementation GDCloudFIleBrowserTests
 
 - (void)setUp {
     [super setUp];
