@@ -1,0 +1,10 @@
+*xcuserdata
+*xcworkspace
+.DS_Store
+*.pbxuser
+*xcuserstate
+*xcbkptlist
+build/
+integration/tmp/
+GDCloudFileBrowser/Keys.plist
+.svn
