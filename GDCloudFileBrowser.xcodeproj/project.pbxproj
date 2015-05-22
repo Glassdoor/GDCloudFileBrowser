@@ -105,6 +105,7 @@
 		829BA78E1B0EA1F700A39CA7 /* GDCloudContentBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDCloudContentBrowserCell.h; sourceTree = "<group>"; };
 		829BA78F1B0EA1F700A39CA7 /* GDCloudContentBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCloudContentBrowserCell.m; sourceTree = "<group>"; };
 		829BA7901B0EA1F700A39CA7 /* GDCloudContentBrowserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDCloudContentBrowserCell.xib; sourceTree = "<group>"; };
+		829BA7991B0EA46200A39CA7 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		829BA79B1B0EA7E600A39CA7 /* GDCloudFileBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDCloudFileBrowser.h; sourceTree = "<group>"; };
 		82D889C51B0BCB29006C3A17 /* GTLDrive_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDrive_Sources.m; sourceTree = "<group>"; };
 		82D889C61B0BCB29006C3A17 /* GTLDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDrive.h; sourceTree = "<group>"; };
@@ -154,6 +155,7 @@
 		082DBBF51ABDB78E002A0CAE = {
 			isa = PBXGroup;
 			children = (
+				829BA7991B0EA46200A39CA7 /* Readme.md */,
 				67C417ED593B608E1ED3D335 /* Frameworks */,
 				082DBC011ABDB78E002A0CAE /* GDCloudFileBrowser */,
 				082DBC0E1ABDB78E002A0CAE /* GDCloudFileBrowserTests */,
