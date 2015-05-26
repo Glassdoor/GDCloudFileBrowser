@@ -12,6 +12,7 @@
 		0875DE6D1ABE29FA0042A417 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0875DE6C1ABE29FA0042A417 /* Images.xcassets */; };
 		82029FE01B151E0E0062AC06 /* GDCloudProviderHelper_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 82029FDA1B1518820062AC06 /* GDCloudProviderHelper_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		82029FE31B1523C90062AC06 /* GDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 82029FE11B1523C90062AC06 /* GDLog.h */; };
+		82029FE51B1526600062AC06 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82F482971B0D09F400B4FE1E /* Keys.plist */; };
 		829BA7771B0E9FBC00A39CA7 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F4829C1B0D0C3800B4FE1E /* DropboxSDK.framework */; };
 		829BA77B1B0EA01400A39CA7 /* GDCloudFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889D21B0BD6EE006C3A17 /* GDCloudFile.m */; };
 		829BA77C1B0EA01400A39CA7 /* GDCloudProviderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889D41B0BD6EE006C3A17 /* GDCloudProviderHelper.m */; };
@@ -465,6 +466,7 @@
 				82F482A31B0D621C00B4FE1E /* GTMOAuth2ViewTouch.xib in Resources */,
 				829BA7941B0EA1F700A39CA7 /* GDLandingViewController.xib in Resources */,
 				0875DE6D1ABE29FA0042A417 /* Images.xcassets in Resources */,
+				82029FE51B1526600062AC06 /* Keys.plist in Resources */,
 				829BA7921B0EA1F700A39CA7 /* GDFilePickerViewController.xib in Resources */,
 				829BA7981B0EA1F700A39CA7 /* GDCloudContentBrowserCell.xib in Resources */,
 			);
