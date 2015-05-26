@@ -7,9 +7,10 @@
 //
 
 #import "GDQuickPreviewViewController.h"
-#import <DropboxSDK/DropboxSDK.h>
 #import "GTLDrive.h"
 #import "GDGoogleDriveHelper.h"
+#import "GDLog.h"
+#import <DropboxSDK/DropboxSDK.h>
 
 static NSString *const kDBShareUrlPrefix = @"https://api-content.dropbox.com/1/files/auto/";
 
@@ -104,14 +105,14 @@ static NSString *const kDBShareUrlPrefix = @"https://api-content.dropbox.com/1/f
             NSData *fileData = [NSData dataWithContentsOfFile:[self fileUri]];
             [self.delegate userSelectedDropboxFileWithURL:self.shareUrl data:fileData relativePath:self.relativePath name:self.userFriendlyName];
         } else {
-            NSLog(@"delegate doesn't respond to @selector(userSelectedDropboxFileWithURL:data:relativePath:name:)");
+            GDLog(@"delegate doesn't respond to @selector(userSelectedDropboxFileWithURL:data:relativePath:name:)");
         }
     } else if (self.provider == GDCloudProviderGoogleDrive) {
         if ([self.delegate respondsToSelector:@selector(userSelectedGoogleDriveFileWithURL:data:name:)]) {
             NSData *fileData = [NSData dataWithContentsOfFile:[self fileUri]];
             [self.delegate userSelectedGoogleDriveFileWithURL:self.shareUrl data:fileData name:self.userFriendlyName];
         } else {
-            NSLog(@"delegate doesn't respond to @selector(userSelectedGoogleDriveFileWithURL:data:name:)");
+            GDLog(@"delegate doesn't respond to @selector(userSelectedGoogleDriveFileWithURL:data:name:)");
         }
     }
     
@@ -185,7 +186,7 @@ static NSString *const kDBShareUrlPrefix = @"https://api-content.dropbox.com/1/f
 
 
 - (void)restClient:(DBRestClient *)client loadFileFailedWithError:(NSError *)error {
-    NSLog(@"There was an error loading the file: %@", error);
+    GDLog(@"There was an error loading the file: %@", error);
 }
 
 @end

@@ -13,6 +13,7 @@
 #import "GDGoogleDriveHelper.h"
 #import "GDCloudContentBrowserCell.h"
 #import "GDQuickPreviewViewController.h"
+#import "GDLog.h"
 #import <DropboxSDK/DropboxSDK.h>
 
 static NSString *const kTableViewCellReuseIdentifier = @"TableView Cell Reuse Identifier";
@@ -189,7 +190,7 @@ static NSString *const kTableViewCellReuseIdentifier = @"TableView Cell Reuse Id
     if (!error) {
         [self downloadDropboxFiles];
     } else {
-        NSLog(@"Dropbox authentication failed with error %@", error.localizedDescription);
+        GDLog(@"Dropbox authentication failed with error %@", error.localizedDescription);
     }
 }
 

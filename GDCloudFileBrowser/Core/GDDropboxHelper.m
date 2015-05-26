@@ -9,6 +9,7 @@
 #import "GDDropboxHelper.h"
 #import "KeysHelper.h"
 #import "GDCloudProviderHelper_Private.h"
+#import "GDLog.h"
 #import <DropboxSDK/DropboxSDK.h>
 
 NSString *const kGDDropboxLinkSuccessfull = @"GDDropboxLinkSuccessfull";
@@ -59,7 +60,7 @@ NSString *const kGDDropboxLinkSuccessfull = @"GDDropboxLinkSuccessfull";
         self.completionHandler = completion;
         [self.restClient loadMetadata:path];
     } else {
-        NSLog(@"user is not authenticated");
+        GDLog(@"user is not authenticated");
     }
 }
 
@@ -76,7 +77,7 @@ NSString *const kGDDropboxLinkSuccessfull = @"GDDropboxLinkSuccessfull";
 }
 
 - (void)restClient:(DBRestClient *)client loadMetadataFailedWithError:(NSError *)error {
-    NSLog(@"Error loading metadata: %@", error);
+    GDLog(@"Error loading metadata: %@", error);
     if (self.completionHandler) {
         self.completionHandler(NO, error);
     }

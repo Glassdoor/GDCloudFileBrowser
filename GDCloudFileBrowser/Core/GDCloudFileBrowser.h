@@ -12,11 +12,3 @@
 #import "GDDropboxHelper.h"
 #import "GDGoogleDriveHelper.h"
 #import "KeysHelper.h"
-
-//! Project version number for GDCloudFileBrowser.
-FOUNDATION_EXPORT double GDCloudFileBrowserVersionNumber;
-
-//! Project version string for GDCloudFileBrowser.
-FOUNDATION_EXPORT const unsigned char GDCloudFileBrowserVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <GDCloudFileBrowser/PublicHeader.h>

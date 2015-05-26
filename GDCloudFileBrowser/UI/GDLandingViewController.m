@@ -8,6 +8,7 @@
 
 #import "GDLandingViewController.h"
 #import "GDFilePickerViewController.h"
+#import "GDLog.h"
 #import <DropboxSDK/DropboxSDK.h>
 
 @interface GDLandingViewController () <GDFilePickerDelegate>
@@ -28,7 +29,7 @@
 #pragma mark - <GDFilePickerDelegate>
 - (void)userPickedFileWithURL:(NSURL *)fileURL data:(NSData *)data fileUri:(NSString *)fileUri name:(NSString *)name {
     if ([data length]) {
-        NSLog(@"the file share url is %@, fileData length is %lld fileUri is %@ and the file name is %@", fileURL, (long long)[data length], fileUri, name);
+        GDLog(@"the file share url is %@, fileData length is %lld fileUri is %@ and the file name is %@", fileURL, (long long)[data length], fileUri, name);
     }
 }
 

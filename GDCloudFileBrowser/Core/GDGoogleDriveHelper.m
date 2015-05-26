@@ -10,6 +10,7 @@
 #import "GDCloudFile.h"
 #import "KeysHelper.h"
 #import "GDCloudProviderHelper_Private.h"
+#import "GDLog.h"
 
 static GDGoogleDriveHelper *manager = nil;
 
@@ -134,7 +135,7 @@ static GDGoogleDriveHelper *manager = nil;
         [GDGoogleDriveHelper sharedManager].accessToken = authResult.accessToken;
         
         if (![GTMOAuth2ViewControllerTouch saveParamsToKeychainForName:[self gDriveKeychainName] accessibility:kSecAttrAccessibleWhenUnlockedThisDeviceOnly authentication:authResult error:&error]) {
-            NSLog(@"failed to authenticate user for google drive with error is %@", error.localizedDescription);
+            GDLog(@"failed to authenticate user for google drive with error is %@", error.localizedDescription);
         }
     }
     

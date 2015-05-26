@@ -16,3 +16,4 @@ Adding GDCloudFileBrowser to your project
 Download the Source file and drag and drop the contents of Core folder into your project.
 Additionaly you can import the Image.xcassets unless you choose to your own images.
 
+If you would like to see detailed logs, enable it in the GDLog.h file. Set ENABLE_LOG flag to YES
