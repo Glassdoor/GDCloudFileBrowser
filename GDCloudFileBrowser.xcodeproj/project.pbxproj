@@ -10,6 +10,7 @@
 		0875DE621ABE29FA0042A417 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0875DE611ABE29FA0042A417 /* main.m */; };
 		0875DE651ABE29FA0042A417 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0875DE641ABE29FA0042A417 /* AppDelegate.m */; };
 		0875DE6D1ABE29FA0042A417 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0875DE6C1ABE29FA0042A417 /* Images.xcassets */; };
+		82029FE01B151E0E0062AC06 /* GDCloudProviderHelper_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 82029FDA1B1518820062AC06 /* GDCloudProviderHelper_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		829BA7771B0E9FBC00A39CA7 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F4829C1B0D0C3800B4FE1E /* DropboxSDK.framework */; };
 		829BA77B1B0EA01400A39CA7 /* GDCloudFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889D21B0BD6EE006C3A17 /* GDCloudFile.m */; };
 		829BA77C1B0EA01400A39CA7 /* GDCloudProviderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889D41B0BD6EE006C3A17 /* GDCloudProviderHelper.m */; };
@@ -92,6 +93,7 @@
 		0875DE6F1ABE29FA0042A417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0875DE751ABE29FA0042A417 /* GDCloudFIleBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDCloudFIleBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDEE175808DF39677D6FA58 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		82029FDA1B1518820062AC06 /* GDCloudProviderHelper_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDCloudProviderHelper_Private.h; sourceTree = "<group>"; };
 		829BA7731B0E93E800A39CA7 /* Keys-example.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Keys-example.plist"; sourceTree = "<group>"; };
 		829BA7841B0EA1F700A39CA7 /* GDFilePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GDFilePickerViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		829BA7851B0EA1F700A39CA7 /* GDFilePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GDFilePickerViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -287,6 +289,7 @@
 				82D889D11B0BD6EE006C3A17 /* GDCloudFile.h */,
 				82D889D21B0BD6EE006C3A17 /* GDCloudFile.m */,
 				82D889D31B0BD6EE006C3A17 /* GDCloudProviderHelper.h */,
+				82029FDA1B1518820062AC06 /* GDCloudProviderHelper_Private.h */,
 				82D889D41B0BD6EE006C3A17 /* GDCloudProviderHelper.m */,
 				82D889D51B0BD6EE006C3A17 /* GDDropboxHelper.h */,
 				82D889D61B0BD6EE006C3A17 /* GDDropboxHelper.m */,
@@ -328,6 +331,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		82029FDF1B151DD80062AC06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82029FE01B151E0E0062AC06 /* GDCloudProviderHelper_Private.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		0875DE5C1ABE29FA0042A417 /* GDCloudFIleBrowser */ = {
 			isa = PBXNativeTarget;
@@ -336,6 +350,7 @@
 				0875DE591ABE29FA0042A417 /* Sources */,
 				0875DE5A1ABE29FA0042A417 /* Frameworks */,
 				0875DE5B1ABE29FA0042A417 /* Resources */,
+				82029FDF1B151DD80062AC06 /* Headers */,
 			);
 			buildRules = (
 			);

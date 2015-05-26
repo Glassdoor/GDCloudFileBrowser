@@ -9,6 +9,7 @@
 #import "GDGoogleDriveHelper.h"
 #import "GDCloudFile.h"
 #import "KeysHelper.h"
+#import "GDCloudProviderHelper_Private.h"
 
 static GDGoogleDriveHelper *manager = nil;
 

@@ -8,6 +8,7 @@
 
 #import "GDDropboxHelper.h"
 #import "KeysHelper.h"
+#import "GDCloudProviderHelper_Private.h"
 #import <DropboxSDK/DropboxSDK.h>
 
 NSString *const kGDDropboxLinkSuccessfull = @"GDDropboxLinkSuccessfull";

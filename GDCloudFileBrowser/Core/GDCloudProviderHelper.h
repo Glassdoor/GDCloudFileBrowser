@@ -37,14 +37,9 @@ typedef void (^CompletionHandler) (BOOL success, NSError *error);
 - (instancetype)initWithProvider:(GDCloudProvider)provider;
 
 /**
- Updates the items in the contents array
- */
-- (void)updateContentsArray:(NSArray *)contents;
-
-/**
  Downloads files from specified directory.
  @param path An NSString object that represents the location on which it runs the query
- @param completion A completion handler that will be invoked once the process if complete
+ @param completion A completion handler that will be invoked once the process is complete
  */
 - (void)downloadFilesFrom:(NSString *)path completion:(CompletionHandler)completion;
 
