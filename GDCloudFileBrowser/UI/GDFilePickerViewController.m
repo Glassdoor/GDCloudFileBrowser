@@ -14,7 +14,6 @@
 #import "GDCloudContentBrowserCell.h"
 #import "GDQuickPreviewViewController.h"
 #import <DropboxSDK/DropboxSDK.h>
-//#import <MBProgressHUD/MBProgressHUD.h>
 
 static NSString *const kTableViewCellReuseIdentifier = @"TableView Cell Reuse Identifier";
 
@@ -96,11 +95,9 @@ static NSString *const kTableViewCellReuseIdentifier = @"TableView Cell Reuse Id
         }
     } else if (self.provider == GDCloudProviderGoogleDrive) {
         if (![self.googleDriveHelper driveAccessAuthorized]) {
-//            [MBProgressHUD showHUDAddedTo:self.view animated:YES];
             // Not yet authorized, request authorization and push the login UI onto the navigation stack.
             // include a delay otherwise it wouldn't work on iOS 7 (complain about nested push). 2sec is plenty of time to reach viewDidAppear
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2.0f * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
-//                [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
                 [self.navigationController pushViewController:[self.googleDriveHelper authController] animated:YES];
             });
         } else {
@@ -212,12 +209,9 @@ static NSString *const kTableViewCellReuseIdentifier = @"TableView Cell Reuse Id
 
 #pragma mark - Private
 - (void)downloadGDriveFiles {
-//    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-    
     __weak GDFilePickerViewController *weakSelf = self;
     [self.googleDriveHelper downloadFilesFrom:self.gDrivePath completion:^(BOOL success, NSError *error) {
         __strong GDFilePickerViewController *strongSelf = weakSelf;
-//        [MBProgressHUD hideAllHUDsForView:strongSelf.view animated:YES];
         
         if (success && !error) {
             dispatch_async(dispatch_get_main_queue(), ^{
@@ -249,14 +243,10 @@ static NSString *const kTableViewCellReuseIdentifier = @"TableView Cell Reuse Id
 }
 
 - (void)downloadDropboxFiles {
-//    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-    
     __weak GDFilePickerViewController *weakSelf = self;
     [self.dropboxHelper downloadFilesFrom:self.dropboxPath completion:^(BOOL success, NSError *error) {
         dispatch_async(dispatch_get_main_queue(), ^{
             GDFilePickerViewController *strongSelf = weakSelf;
-//            [MBProgressHUD hideHUDForView:strongSelf.view animated:YES];
-            
             if (![strongSelf.dropboxHelper.contents count]) {
                 strongSelf.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
                 strongSelf.tableView.tableHeaderView = nil;

@@ -8,7 +8,6 @@
 
 #import "GDQuickPreviewViewController.h"
 #import <DropboxSDK/DropboxSDK.h>
-//#import <MBProgressHUD/MBProgressHUD.h>
 #import "GTLDrive.h"
 #import "GDGoogleDriveHelper.h"
 
@@ -53,8 +52,6 @@ static NSString *const kDBShareUrlPrefix = @"https://api-content.dropbox.com/1/f
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-    
     UIButton *confirmButton = [UIButton buttonWithType:UIButtonTypeSystem];
     confirmButton.frame = CGRectMake(0.0f, 0.0f, 80.0f, 40.0f);
     [confirmButton setTitle:@"Confirm" forState:UIControlStateNormal];
@@ -93,13 +90,10 @@ static NSString *const kDBShareUrlPrefix = @"https://api-content.dropbox.com/1/f
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
-//    [MBProgressHUD hideHUDForView:self.view animated:YES];
     self.confirmBarButton.enabled = YES;
 }
 
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
-//    [MBProgressHUD hideHUDForView:self.view animated:YES];
-    
     [[[UIAlertView alloc] initWithTitle:@"" message:NSLocalizedString(@"Unable to open file.", nil) delegate:nil cancelButtonTitle:NSLocalizedString(@"OK", nil) otherButtonTitles:nil] show];
 }
 
