@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-static BOOL const ENABLE_LOG = NO;
+static BOOL const ENABLE_LOG = NO; ///< Set this to YES, if you'd like to see debug logs
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wunused-function"

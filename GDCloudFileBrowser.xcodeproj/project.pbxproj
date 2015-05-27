@@ -13,14 +13,11 @@
 		82029FE01B151E0E0062AC06 /* GDCloudProviderHelper_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 82029FDA1B1518820062AC06 /* GDCloudProviderHelper_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		82029FE31B1523C90062AC06 /* GDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 82029FE11B1523C90062AC06 /* GDLog.h */; };
 		82029FE51B1526600062AC06 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82F482971B0D09F400B4FE1E /* Keys.plist */; };
-		829BA7771B0E9FBC00A39CA7 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F4829C1B0D0C3800B4FE1E /* DropboxSDK.framework */; };
 		829BA77B1B0EA01400A39CA7 /* GDCloudFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889D21B0BD6EE006C3A17 /* GDCloudFile.m */; };
 		829BA77C1B0EA01400A39CA7 /* GDCloudProviderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889D41B0BD6EE006C3A17 /* GDCloudProviderHelper.m */; };
 		829BA77D1B0EA01400A39CA7 /* GDDropboxHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889D61B0BD6EE006C3A17 /* GDDropboxHelper.m */; };
 		829BA77E1B0EA01400A39CA7 /* GDGoogleDriveHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889DB1B0BD6EE006C3A17 /* GDGoogleDriveHelper.m */; };
 		829BA7801B0EA01400A39CA7 /* KeysHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889E31B0BD6EE006C3A17 /* KeysHelper.m */; };
-		829BA7811B0EA02700A39CA7 /* GTLDrive_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889C51B0BCB29006C3A17 /* GTLDrive_Sources.m */; };
-		829BA7821B0EA05D00A39CA7 /* libGTLTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D88B961B0BF12E006C3A17 /* libGTLTouchStaticLib.a */; };
 		829BA7911B0EA1F700A39CA7 /* GDFilePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829BA7851B0EA1F700A39CA7 /* GDFilePickerViewController.m */; };
 		829BA7921B0EA1F700A39CA7 /* GDFilePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829BA7861B0EA1F700A39CA7 /* GDFilePickerViewController.xib */; };
 		829BA7931B0EA1F700A39CA7 /* GDLandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829BA7881B0EA1F700A39CA7 /* GDLandingViewController.m */; };
@@ -30,8 +27,12 @@
 		829BA7971B0EA1F700A39CA7 /* GDCloudContentBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 829BA78F1B0EA1F700A39CA7 /* GDCloudContentBrowserCell.m */; };
 		829BA7981B0EA1F700A39CA7 /* GDCloudContentBrowserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829BA7901B0EA1F700A39CA7 /* GDCloudContentBrowserCell.xib */; };
 		829BA79A1B0EA5B900A39CA7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0875DE291ABDD40E0042A417 /* QuartzCore.framework */; };
+		82BD2F401B15425000A70285 /* libGTLTouchStaticLib-all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BD2F3F1B15425000A70285 /* libGTLTouchStaticLib-all.a */; };
+		82BD2F441B1542CB00A70285 /* GTLDrive_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BD2F411B1542CB00A70285 /* GTLDrive_Sources.m */; };
+		82BD2F451B1542CB00A70285 /* GTLDrive.h in Headers */ = {isa = PBXBuildFile; fileRef = 82BD2F421B1542CB00A70285 /* GTLDrive.h */; };
+		82BD2F461B1542CB00A70285 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82BD2F431B1542CB00A70285 /* GTMOAuth2ViewTouch.xib */; };
+		82BD2F491B15432B00A70285 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BD2F481B15432B00A70285 /* DropboxSDK.framework */; };
 		82F4829F1B0D1A3400B4FE1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0875DE2B1ABDD4620042A417 /* CoreGraphics.framework */; };
-		82F482A31B0D621C00B4FE1E /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82F482A21B0D621C00B4FE1E /* GTMOAuth2ViewTouch.xib */; };
 		82FC07F11B0C0ADA004E95A6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0875DE271ABDD4090042A417 /* Security.framework */; };
 		82FC07F21B0C0AE2004E95A6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0875DE3D1ABDD7730042A417 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
@@ -43,34 +44,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 0875DE5C1ABE29FA0042A417;
 			remoteInfo = GDCloudFIleBrowser;
-		};
-		82D88B931B0BF12E006C3A17 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82D88A0C1B0BF12D006C3A17 /* GTL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4F38F6A60B66E91D00B24B81;
-			remoteInfo = GTLFramework;
-		};
-		82D88B951B0BF12E006C3A17 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82D88A0C1B0BF12D006C3A17 /* GTL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4F12027C11A4CA2F00BEB470;
-			remoteInfo = GTLTouchStaticLib;
-		};
-		82D88B971B0BF12E006C3A17 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82D88A0C1B0BF12D006C3A17 /* GTL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4F12027D11A4CA2F00BEB470;
-			remoteInfo = GTLUnitTests;
-		};
-		82D88B991B0BF12E006C3A17 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82D88A0C1B0BF12D006C3A17 /* GTL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4F1AD9020B71603F00DC0485;
-			remoteInfo = DevelopmentTestTool;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -111,8 +84,11 @@
 		829BA7901B0EA1F700A39CA7 /* GDCloudContentBrowserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDCloudContentBrowserCell.xib; sourceTree = "<group>"; };
 		829BA7991B0EA46200A39CA7 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		829BA79B1B0EA7E600A39CA7 /* GDCloudFileBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDCloudFileBrowser.h; sourceTree = "<group>"; };
-		82D889C51B0BCB29006C3A17 /* GTLDrive_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDrive_Sources.m; sourceTree = "<group>"; };
-		82D889C61B0BCB29006C3A17 /* GTLDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDrive.h; sourceTree = "<group>"; };
+		82BD2F3F1B15425000A70285 /* libGTLTouchStaticLib-all.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libGTLTouchStaticLib-all.a"; sourceTree = "<group>"; };
+		82BD2F411B1542CB00A70285 /* GTLDrive_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDrive_Sources.m; sourceTree = "<group>"; };
+		82BD2F421B1542CB00A70285 /* GTLDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLDrive.h; sourceTree = "<group>"; };
+		82BD2F431B1542CB00A70285 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMOAuth2ViewTouch.xib; sourceTree = "<group>"; };
+		82BD2F481B15432B00A70285 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
 		82D889D11B0BD6EE006C3A17 /* GDCloudFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GDCloudFile.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		82D889D21B0BD6EE006C3A17 /* GDCloudFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCloudFile.m; sourceTree = "<group>"; };
 		82D889D31B0BD6EE006C3A17 /* GDCloudProviderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GDCloudProviderHelper.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -123,13 +99,8 @@
 		82D889DB1B0BD6EE006C3A17 /* GDGoogleDriveHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GDGoogleDriveHelper.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		82D889E21B0BD6EE006C3A17 /* KeysHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KeysHelper.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		82D889E31B0BD6EE006C3A17 /* KeysHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = KeysHelper.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		82D88A0C1B0BF12D006C3A17 /* GTL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = GTL.xcodeproj; sourceTree = "<group>"; };
-		82D88BB01B0BFD38006C3A17 /* libGTLTouchStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGTLTouchStaticLib.a; path = "google-drive/libGTLTouchStaticLib.a"; sourceTree = "<group>"; };
 		82F482971B0D09F400B4FE1E /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
-		82F4829C1B0D0C3800B4FE1E /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DropboxSDK.framework; path = dropbox/DropboxSDK.framework; sourceTree = "<group>"; };
-		82F482A21B0D621C00B4FE1E /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = Source/OAuth2/Touch/GTMOAuth2ViewTouch.xib; sourceTree = "<group>"; };
 		B27A6B775F8E869646321FA4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		DA64B1907EE473091344E898 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,10 +108,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82BD2F491B15432B00A70285 /* DropboxSDK.framework in Frameworks */,
 				829BA79A1B0EA5B900A39CA7 /* QuartzCore.framework in Frameworks */,
-				829BA7821B0EA05D00A39CA7 /* libGTLTouchStaticLib.a in Frameworks */,
-				829BA7771B0E9FBC00A39CA7 /* DropboxSDK.framework in Frameworks */,
 				82F4829F1B0D1A3400B4FE1E /* CoreGraphics.framework in Frameworks */,
+				82BD2F401B15425000A70285 /* libGTLTouchStaticLib-all.a in Frameworks */,
 				82FC07F21B0C0AE2004E95A6 /* SystemConfiguration.framework in Frameworks */,
 				82FC07F11B0C0ADA004E95A6 /* Security.framework in Frameworks */,
 			);
@@ -163,7 +134,6 @@
 				67C417ED593B608E1ED3D335 /* Frameworks */,
 				082DBC011ABDB78E002A0CAE /* GDCloudFileBrowser */,
 				082DBC0E1ABDB78E002A0CAE /* GDCloudFileBrowserTests */,
-				82D887C01B0BBEE4006C3A17 /* google-drive */,
 				CFBCB8B51E45BAF969A30CDD /* Pods */,
 				082DBC001ABDB78E002A0CAE /* Products */,
 				0875DE501ABDE1050042A417 /* Resources */,
@@ -231,8 +201,6 @@
 		67C417ED593B608E1ED3D335 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				82F4829C1B0D0C3800B4FE1E /* DropboxSDK.framework */,
-				82D88BB01B0BFD38006C3A17 /* libGTLTouchStaticLib.a */,
 				0875DE411ABDD78D0042A417 /* libz.dylib */,
 				0875DE3F1ABDD7830042A417 /* libc++.dylib */,
 				0875DE3D1ABDD7730042A417 /* SystemConfiguration.framework */,
@@ -241,9 +209,19 @@
 				0875DE2B1ABDD4620042A417 /* CoreGraphics.framework */,
 				0875DE291ABDD40E0042A417 /* QuartzCore.framework */,
 				0875DE271ABDD4090042A417 /* Security.framework */,
-				DA64B1907EE473091344E898 /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8247C5A21B1533F2008EAB99 /* GDrive */ = {
+			isa = PBXGroup;
+			children = (
+				82BD2F411B1542CB00A70285 /* GTLDrive_Sources.m */,
+				82BD2F421B1542CB00A70285 /* GTLDrive.h */,
+				82BD2F431B1542CB00A70285 /* GTMOAuth2ViewTouch.xib */,
+				82BD2F3F1B15425000A70285 /* libGTLTouchStaticLib-all.a */,
+			);
+			path = GDrive;
 			sourceTree = "<group>";
 		};
 		829BA7831B0EA1F700A39CA7 /* UI */ = {
@@ -273,20 +251,19 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		82D887C01B0BBEE4006C3A17 /* google-drive */ = {
+		82BD2F471B15432B00A70285 /* dropbox */ = {
 			isa = PBXGroup;
 			children = (
-				82D88A0B1B0BF12D006C3A17 /* Source */,
-				82D889C51B0BCB29006C3A17 /* GTLDrive_Sources.m */,
-				82D889C61B0BCB29006C3A17 /* GTLDrive.h */,
-				82F482A21B0D621C00B4FE1E /* GTMOAuth2ViewTouch.xib */,
+				82BD2F481B15432B00A70285 /* DropboxSDK.framework */,
 			);
-			path = "google-drive";
+			path = dropbox;
 			sourceTree = "<group>";
 		};
 		82D889D01B0BD6EE006C3A17 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				82BD2F471B15432B00A70285 /* dropbox */,
+				8247C5A21B1533F2008EAB99 /* GDrive */,
 				829BA79B1B0EA7E600A39CA7 /* GDCloudFileBrowser.h */,
 				82D889D11B0BD6EE006C3A17 /* GDCloudFile.h */,
 				82D889D21B0BD6EE006C3A17 /* GDCloudFile.m */,
@@ -302,25 +279,6 @@
 				82029FE11B1523C90062AC06 /* GDLog.h */,
 			);
 			path = Core;
-			sourceTree = "<group>";
-		};
-		82D88A0B1B0BF12D006C3A17 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				82D88A0C1B0BF12D006C3A17 /* GTL.xcodeproj */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		82D88A0D1B0BF12D006C3A17 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				82D88B941B0BF12E006C3A17 /* GTL.framework */,
-				82D88B961B0BF12E006C3A17 /* libGTLTouchStaticLib.a */,
-				82D88B981B0BF12E006C3A17 /* GTLUnitTests.xctest */,
-				82D88B9A1B0BF12E006C3A17 /* DevelopmentTestTool */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		CFBCB8B51E45BAF969A30CDD /* Pods */ = {
@@ -340,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82029FE31B1523C90062AC06 /* GDLog.h in Headers */,
+				82BD2F451B1542CB00A70285 /* GTLDrive.h in Headers */,
 				82029FE01B151E0E0062AC06 /* GDCloudProviderHelper_Private.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,12 +371,6 @@
 			mainGroup = 082DBBF51ABDB78E002A0CAE;
 			productRefGroup = 082DBC001ABDB78E002A0CAE /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 82D88A0D1B0BF12D006C3A17 /* Products */;
-					ProjectRef = 82D88A0C1B0BF12D006C3A17 /* GTL.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				0875DE5C1ABE29FA0042A417 /* GDCloudFIleBrowser */,
@@ -426,44 +379,13 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		82D88B941B0BF12E006C3A17 /* GTL.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = GTL.framework;
-			remoteRef = 82D88B931B0BF12E006C3A17 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		82D88B961B0BF12E006C3A17 /* libGTLTouchStaticLib.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libGTLTouchStaticLib.a;
-			remoteRef = 82D88B951B0BF12E006C3A17 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		82D88B981B0BF12E006C3A17 /* GTLUnitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = GTLUnitTests.xctest;
-			remoteRef = 82D88B971B0BF12E006C3A17 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		82D88B9A1B0BF12E006C3A17 /* DevelopmentTestTool */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = DevelopmentTestTool;
-			remoteRef = 82D88B991B0BF12E006C3A17 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		0875DE5B1ABE29FA0042A417 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82BD2F461B1542CB00A70285 /* GTMOAuth2ViewTouch.xib in Resources */,
 				829BA7961B0EA1F700A39CA7 /* GDQuickPreviewViewController.xib in Resources */,
-				82F482A31B0D621C00B4FE1E /* GTMOAuth2ViewTouch.xib in Resources */,
 				829BA7941B0EA1F700A39CA7 /* GDLandingViewController.xib in Resources */,
 				0875DE6D1ABE29FA0042A417 /* Images.xcassets in Resources */,
 				82029FE51B1526600062AC06 /* Keys.plist in Resources */,
@@ -486,7 +408,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				829BA7811B0EA02700A39CA7 /* GTLDrive_Sources.m in Sources */,
 				829BA77B1B0EA01400A39CA7 /* GDCloudFile.m in Sources */,
 				829BA7951B0EA1F700A39CA7 /* GDQuickPreviewViewController.m in Sources */,
 				829BA7971B0EA1F700A39CA7 /* GDCloudContentBrowserCell.m in Sources */,
@@ -496,6 +417,7 @@
 				829BA7801B0EA01400A39CA7 /* KeysHelper.m in Sources */,
 				829BA7911B0EA1F700A39CA7 /* GDFilePickerViewController.m in Sources */,
 				0875DE651ABE29FA0042A417 /* AppDelegate.m in Sources */,
+				82BD2F441B1542CB00A70285 /* GTLDrive_Sources.m in Sources */,
 				0875DE621ABE29FA0042A417 /* main.m in Sources */,
 				829BA7931B0EA1F700A39CA7 /* GDLandingViewController.m in Sources */,
 			);
@@ -623,9 +545,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/google-drive/**",
 					"$(PROJECT_DIR)/**",
 					"$(PROJECT_DIR)/dropbox",
+					"$(PROJECT_DIR)/GDCloudFileBrowser/Core/dropbox",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -634,20 +556,21 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
-					"$(SRCROOT)/google-drive/**",
 				);
 				INFOPLIST_FILE = GDCloudFIleBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/google-drive",
+					"$(PROJECT_DIR)/GDCloudFileBrowser/Core/GDrive/**",
+					"$(PROJECT_DIR)/GDCloudFileBrowser/Core/GDrive",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/google-drive/**";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/google-drive/** $(PROJECT_DIR)/GDCloudFileBrowser/Core/GDrive/**";
 			};
 			name = Debug;
 		};
@@ -659,27 +582,28 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/google-drive/**",
 					"$(PROJECT_DIR)/**",
 					"$(PROJECT_DIR)/dropbox",
+					"$(PROJECT_DIR)/GDCloudFileBrowser/Core/dropbox",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
-					"$(SRCROOT)/google-drive/**",
 				);
 				INFOPLIST_FILE = GDCloudFIleBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/google-drive",
+					"$(PROJECT_DIR)/GDCloudFileBrowser/Core/GDrive/**",
+					"$(PROJECT_DIR)/GDCloudFileBrowser/Core/GDrive",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/google-drive/**";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/google-drive/** $(PROJECT_DIR)/GDCloudFileBrowser/Core/GDrive/**";
 			};
 			name = Release;
 		};
