@@ -12,7 +12,6 @@
 		0875DE6D1ABE29FA0042A417 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0875DE6C1ABE29FA0042A417 /* Images.xcassets */; };
 		82029FE01B151E0E0062AC06 /* GDCloudProviderHelper_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 82029FDA1B1518820062AC06 /* GDCloudProviderHelper_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		82029FE31B1523C90062AC06 /* GDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 82029FE11B1523C90062AC06 /* GDLog.h */; };
-		82029FE51B1526600062AC06 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82F482971B0D09F400B4FE1E /* Keys.plist */; };
 		829BA77B1B0EA01400A39CA7 /* GDCloudFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889D21B0BD6EE006C3A17 /* GDCloudFile.m */; };
 		829BA77C1B0EA01400A39CA7 /* GDCloudProviderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889D41B0BD6EE006C3A17 /* GDCloudProviderHelper.m */; };
 		829BA77D1B0EA01400A39CA7 /* GDDropboxHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D889D61B0BD6EE006C3A17 /* GDDropboxHelper.m */; };
@@ -69,7 +68,6 @@
 		6CDEE175808DF39677D6FA58 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		82029FDA1B1518820062AC06 /* GDCloudProviderHelper_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDCloudProviderHelper_Private.h; sourceTree = "<group>"; };
 		82029FE11B1523C90062AC06 /* GDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDLog.h; sourceTree = "<group>"; };
-		829BA7731B0E93E800A39CA7 /* Keys-example.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Keys-example.plist"; sourceTree = "<group>"; };
 		829BA7841B0EA1F700A39CA7 /* GDFilePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GDFilePickerViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		829BA7851B0EA1F700A39CA7 /* GDFilePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GDFilePickerViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		829BA7861B0EA1F700A39CA7 /* GDFilePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDFilePickerViewController.xib; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 		82D889DB1B0BD6EE006C3A17 /* GDGoogleDriveHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GDGoogleDriveHelper.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		82D889E21B0BD6EE006C3A17 /* KeysHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KeysHelper.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		82D889E31B0BD6EE006C3A17 /* KeysHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = KeysHelper.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		82F482971B0D09F400B4FE1E /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
 		B27A6B775F8E869646321FA4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -166,10 +163,8 @@
 		082DBC021ABDB78E002A0CAE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				829BA7731B0E93E800A39CA7 /* Keys-example.plist */,
 				082DBC031ABDB78E002A0CAE /* Info.plist */,
 				0875DE611ABE29FA0042A417 /* main.m */,
-				82F482971B0D09F400B4FE1E /* Keys.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -388,7 +383,6 @@
 				829BA7961B0EA1F700A39CA7 /* GDQuickPreviewViewController.xib in Resources */,
 				829BA7941B0EA1F700A39CA7 /* GDLandingViewController.xib in Resources */,
 				0875DE6D1ABE29FA0042A417 /* Images.xcassets in Resources */,
-				82029FE51B1526600062AC06 /* Keys.plist in Resources */,
 				829BA7921B0EA1F700A39CA7 /* GDFilePickerViewController.xib in Resources */,
 				829BA7981B0EA1F700A39CA7 /* GDCloudContentBrowserCell.xib in Resources */,
 			);

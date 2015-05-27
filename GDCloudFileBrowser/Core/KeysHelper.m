@@ -9,6 +9,12 @@
 #import "KeysHelper.h"
 #import "GDLog.h"
 
+static NSString *const kDropboxClientId = @""; // Set the client Id from your Dropbox developer console and update the Info.plist > URL Types > URL Schemes [db-APP_KEY replacing APP_KEY with the key generated when you created your app)]
+static NSString *const kDropboxClientSecret = @""; // Set the client Secret from your Dropbox developer console
+static NSString *const kGoogleDriveClientId = @""; // Set the client Id from your Google developer console
+static NSString *const kGoogleDriveClientSecret = @""; // Set the client Secret from your Google developer console
+static NSString *const kGoogleDriveClientKeychainName = @""; // Set a name for the keychain entry
+
 @interface KeysHelper ()
 
 @property (nonatomic, strong) NSDictionary *keysDictionary;
@@ -39,45 +45,45 @@
 
 #pragma mark - Public
 - (NSString *)dropboxClientId {
-    NSString *value = self.keysDictionary[@"Dropbox_Client_Id"];
+    NSString *value = kDropboxClientId;
     if (![value length]) {
-        GDLog(@"Set your Dropbox client id in the Keys.plist (if the file doesn't exist, either create a Keys.plist file or rename Keys-example.plist and fill in the required fields)");
+        GDLog(@"Set your Dropbox client id in the KeysHelper.m file");
     }
     
     return value;
 }
 
 - (NSString *)dropboxClientSecret {
-    NSString *value = self.keysDictionary[@"Dropbox_Client_Secret"];
+    NSString *value = kDropboxClientSecret;
     if (![value length]) {
-        GDLog(@"Set your Dropbox client secret in the Keys.plist (if the file doesn't exist, either create a Keys.plist file or rename Keys-example.plist and fill in the required fields)");
+        GDLog(@"Set your Dropbox client secret in the KeysHelper.m file");
     }
     
     return value;
 }
 
 - (NSString *)googleDriveClientId {
-    NSString *value = self.keysDictionary[@"Google_Drive_Client_Id"];
+    NSString *value = kGoogleDriveClientId;
     if (![value length]) {
-        GDLog(@"Set your Google Drive client id in the Keys.plist (if the file doesn't exist, either create a Keys.plist file or rename Keys-example.plist and fill in the required fields)");
+        GDLog(@"Set your Google Drive client id in the KeysHelper.m file");
     }
     
     return value;
 }
 
 - (NSString *)googleDriveClientSecret {
-    NSString *value = self.keysDictionary[@"Google_Drive_Client_Secret"];
+    NSString *value = kGoogleDriveClientSecret;
     if (![value length]) {
-        GDLog(@"Set your Google Drive client secret in the Keys.plist (if the file doesn't exist, either create a Keys.plist file or rename Keys-example.plist and fill in the required fields)");
+        GDLog(@"Set your Google Drive client secret in the KeysHelper.m file");
     }
     
     return value;
 }
 
 - (NSString *)googleDriveClientKeychainName {
-    NSString *value = self.keysDictionary[@"Google_Drive_Keychain_Name"];
+    NSString *value = kGoogleDriveClientKeychainName;
     if (![value length]) {
-        GDLog(@"Set your Google Drive Keychain name in the Keys.plist (if the file doesn't exist, either create a Keys.plist file or rename Keys-example.plist and fill in the required fields)");
+        GDLog(@"Set your Google Drive Keychain name in the KeysHelper.m file");
     }
     
     return value;
