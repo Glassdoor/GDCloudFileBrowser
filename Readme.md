@@ -15,7 +15,11 @@ GDCloudFileBrowser is an iOS drop-in class that can be used with existing or new
 
 Download the Source project and drag and drop the contents of Core folder into your project.
 
-#### Instantiating the *DropboxHelper*
+Your View Controller must conform to the `GDFilePickerDelegate` protocol to receive callbacks.
+
+If you would like to see detailed logs, enable it in the GDLog.h file. Set ENABLE_LOG flag to YES
+
+#### Using *DropboxHelper* to download files
 ```
 GDDropboxHelper *dropboxHelper = [[GDDropboxHelper alloc] initWithDelegate:self];
 ```
@@ -35,10 +39,9 @@ if (![self.dropboxHelper dropboxAccountLinked]) { // no accounts are currently l
         /* custom logic upon downloading the files */
     }];
 ```
- Your View Controller must conform to the `GDFilePickerDelegate` protocol to receive callbacks.
 
 
-#### Instantiating the *GDDropboxHelper*
+#### Using *GDDropboxHelper* to download files
 
 If it's the root folder (Read comments in `GDFilePickerViewController` to find why it's done this way)
 ```
@@ -70,7 +73,21 @@ if (![self.googleDriveHelper driveAccessAuthorized]) {
     }];
 ```
 
-If you would like to see detailed logs, enable it in the GDLog.h file. Set ENABLE_LOG flag to YES
+#### Using `GDQuickPreviewDelegate` to retrieve user's picked file data
+
+##### Dropbox file selection
+```
+- (void)userSelectedDropboxFileWithURL:(NSString *)url data:(NSData *)fileData relativePath:(NSString *)relativePath name:(NSString *)fileName {
+    /* custom logic to handle user's file selection */
+}
+```
+
+##### Google Drive file selection
+```
+- (void)userSelectedGoogleDriveFileWithURL:(NSString *)url data:(NSData *)fileData name:(NSString *)fileName {
+    /* custom logic to handle user's file selection */
+```
 
 ### License
 This code is distributed under the terms and conditions of the MIT license. 
+
