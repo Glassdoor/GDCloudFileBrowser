@@ -22,7 +22,7 @@ static NSString *const kTableViewCellReuseIdentifier = @"TableView Cell Reuse Id
 
 @property (nonatomic) GDCloudProvider provider;
 @property (nonatomic, getter = isRoot) BOOL root;
-@property (nonatomic, strong) NSString *dropboxPath;
+@property (nonatomic, copy) NSString *dropboxPath;
 @property (nonatomic, copy) NSString *gDrivePath;
 @property (nonatomic, strong, readwrite) NSString *gDriveFileUri;
 @property (nonatomic, strong) GDDropboxHelper *dropboxHelper;
