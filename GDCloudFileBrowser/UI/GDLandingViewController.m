@@ -21,11 +21,6 @@
     return [super initWithNibName:NSStringFromClass([self class]) bundle:nil];
 }
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-
-}
-
 #pragma mark - <GDFilePickerDelegate>
 - (void)userPickedFileWithURL:(NSURL *)fileURL data:(NSData *)data fileUri:(NSString *)fileUri name:(NSString *)name {
     if ([data length]) {

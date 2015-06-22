@@ -50,6 +50,7 @@
 		082DBC031ABDB78E002A0CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		082DBC101ABDB78E002A0CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		082DBC111ABDB78E002A0CAE /* GDCloudFileBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GDCloudFileBrowserTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		0839FFF11B37D1050086167F /*  LICENSE.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = " LICENSE.rtf"; sourceTree = "<group>"; };
 		0875DE271ABDD4090042A417 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		0875DE291ABDD40E0042A417 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0875DE2B1ABDD4620042A417 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -128,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				829BA7991B0EA46200A39CA7 /* Readme.md */,
+				0839FFF11B37D1050086167F /*  LICENSE.rtf */,
 				67C417ED593B608E1ED3D335 /* Frameworks */,
 				082DBC011ABDB78E002A0CAE /* GDCloudFileBrowser */,
 				082DBC0E1ABDB78E002A0CAE /* GDCloudFileBrowserTests */,

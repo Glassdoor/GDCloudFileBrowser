@@ -41,8 +41,6 @@ static NSString *const kTableViewCellReuseIdentifier = @"TableView Cell Reuse Id
         self.provider = GDCloudProviderDropbox;
         self.root = isRoot;
         self.dropboxPath = path;
-        
-        [self commonInit];
 
         self.dropboxHelper = [[GDDropboxHelper alloc] initWithDelegate:self];
     }
@@ -58,8 +56,6 @@ static NSString *const kTableViewCellReuseIdentifier = @"TableView Cell Reuse Id
         self.gDrivePath = path;
         self.gDriveFileUri = folderName;
         
-        [self commonInit];
-        
         // if it's the root folder, use the sharedManager which retrieve a new access token from the google server
         // if it's no the root folder, use the normal init to instantiate, which will use the accessToken from the sharedManager
         // we could also avoid this and store the accessToken in any static class but to keep everything together, use a static version of the GDGoogleDriveManager
@@ -73,10 +69,6 @@ static NSString *const kTableViewCellReuseIdentifier = @"TableView Cell Reuse Id
     }
     
     return self;
-}
-
-- (void)commonInit {
-    
 }
 
 #pragma mark - View Life Cycle

@@ -28,7 +28,7 @@ static GDGoogleDriveHelper *manager = nil;
 @dynamic delegate;
 
 + (GDGoogleDriveHelper *)sharedManager {
-    // using a synchronized instead of the dispatch_once token because we want to reset this to nil when the user logs out.
+    // using a synchronized instead of the dispatch_once token because we want to reset this to nil when the user logs out and possibly re-instantiate the sharedManager if they log back in the same app session.
     @synchronized(self) {
         if (!manager) {
             manager = [[GDGoogleDriveHelper alloc] initWithProvider:GDCloudProviderGoogleDrive];
