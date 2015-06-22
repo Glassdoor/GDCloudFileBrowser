@@ -8,8 +8,8 @@ GDCloudFileBrowser is an iOS drop-in class that can be used with existing or new
 
 * GDCloudFileBrowser is tested only for iOS 7 or above and will work only with ARC projects.
 * GDCloudFileBrowser uses UIKit, CoreGraphics.
-* GDCloudFileBrowser uses the DropboxSDK (Core SDK) v1.3.13 which requires QuartzCore, Security.framework
-* GDCloudFileBrowser uses the GTL (google-api-objectivec-client) project last updated on Dec-6th-2012 (http://google-api-objectivec-client.googlecode.com/svn/trunk/ google-api-objectivec-client-read-only) which uses Security, SystemConfiguration.
+* GDCloudFileBrowser uses the DropboxSDK [Core SDK](https://www.dropbox.com/developers/downloads/sdks/core/ios/dropbox-ios-sdk-1.3.13.zip) last updated on Sep-15th-2014 (v1.3.13) which requires QuartzCore, Security.framework
+* GDCloudFileBrowser uses the GTL [google-api-objectivec-client](http://google-api-objectivec-client.googlecode.com/svn/trunk/) last updated on Dec-6th-2012 which uses Security, SystemConfiguration.
 
 ### Adding GDCloudFileBrowser to your project
 
@@ -18,6 +18,15 @@ Download the Source project and drag and drop the contents of Core folder into y
 Your View Controller must conform to the `GDFilePickerDelegate` protocol to receive callbacks.
 
 If you would like to see detailed logs, enable it in the GDLog.h file. Set ENABLE_LOG flag to YES
+
+#### Update constants in `KeysHelper.m` with your developer account info
+```
+static NSString *const kDropboxClientId = @""; // Set the client Id from your Dropbox developer console and update the Info.plist > URL Types > URL Schemes [db-APP_KEY replacing APP_KEY with the key generated when you created your app)]
+static NSString *const kDropboxClientSecret = @""; // Set the client Secret from your Dropbox developer console
+static NSString *const kGoogleDriveClientId = @""; // Set the client Id from your Google developer console
+static NSString *const kGoogleDriveClientSecret = @""; // Set the client Secret from your Google developer console
+static NSString *const kGoogleDriveClientKeychainName = @""; // Set a name for the keychain entry
+```
 
 #### Using *DropboxHelper* to download files
 ```
