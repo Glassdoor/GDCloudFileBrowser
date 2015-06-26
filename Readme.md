@@ -20,8 +20,9 @@ Your View Controller must conform to the `GDFilePickerDelegate` protocol to rece
 If you would like to see detailed logs, enable it in the GDLog.h file. Set ENABLE_LOG flag to YES
 
 #### Update constants in `KeysHelper.m` with your developer account info
+##### If you're using Dropbox update your app's Supported URL Schemes in your Info.plist file. Info.plist > URL Types > URL Schemes [db-APP_KEY replacing APP_KEY with the key generated when you created your app]
 ```
-static NSString *const kDropboxClientId = @""; // Set the client Id from your Dropbox developer console and update the Info.plist > URL Types > URL Schemes [db-APP_KEY replacing APP_KEY with the key generated when you created your app)]
+static NSString *const kDropboxClientId = @""; // Set the client Id from your Dropbox developer console and update the Info.plist (see above for instructions)
 static NSString *const kDropboxClientSecret = @""; // Set the client Secret from your Dropbox developer console
 static NSString *const kGoogleDriveClientId = @""; // Set the client Id from your Google developer console
 static NSString *const kGoogleDriveClientSecret = @""; // Set the client Secret from your Google developer console
