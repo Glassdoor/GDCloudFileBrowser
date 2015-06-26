@@ -28,7 +28,7 @@ static NSString *const kGoogleDriveClientSecret = @""; // Set the client Secret 
 static NSString *const kGoogleDriveClientKeychainName = @""; // Set a name for the keychain entry
 ```
 
-#### Using *GDDropboxHelper* to download files
+#### Using *GDDropboxHelper* to download Dropbox files
 ```
 GDDropboxHelper *dropboxHelper = [[GDDropboxHelper alloc] initWithDelegate:self];
 ```
@@ -50,7 +50,7 @@ if (![self.dropboxHelper dropboxAccountLinked]) { // no accounts are currently l
 ```
 
 
-#### Using *GDGoogleDriveHelper* to download files
+#### Using *GDGoogleDriveHelper* to download Google Drive files
 
 If it's the root folder (Read comments in `GDFilePickerViewController` to find why it's done this way)
 ```
