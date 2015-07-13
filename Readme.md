@@ -1,6 +1,6 @@
 # GDCloudFileBrowser
 
-GDCloudFileBrowser is an iOS drop-in class that can be used with existing or new projects to access a user's Dropbox or Google Drive content.
+GDCloudFileBrowser is an iOS drop-in wrapper class that can be used with existing or new projects to access a user's Dropbox or Google Drive content.
 
 ### Requirements
 
