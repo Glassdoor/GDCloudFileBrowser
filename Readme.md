@@ -20,15 +20,16 @@ Your View Controller must conform to the `GDFilePickerDelegate` protocol to rece
 If you would like to see detailed logs, enable it in the GDLog.h file. Set ENABLE_LOG flag to YES
 
 #### Update constants in `KeysHelper.m` with your developer account info
+##### If you're using Dropbox update your app's Supported URL Schemes in your Info.plist file. Info.plist > URL Types > URL Schemes [db-APP_KEY replacing APP_KEY with the key generated when you created your app]
 ```
-static NSString *const kDropboxClientId = @""; // Set the client Id from your Dropbox developer console and update the Info.plist > URL Types > URL Schemes [db-APP_KEY replacing APP_KEY with the key generated when you created your app)]
+static NSString *const kDropboxClientId = @""; // Set the client Id from your Dropbox developer console and update the Info.plist (see above for instructions)
 static NSString *const kDropboxClientSecret = @""; // Set the client Secret from your Dropbox developer console
 static NSString *const kGoogleDriveClientId = @""; // Set the client Id from your Google developer console
 static NSString *const kGoogleDriveClientSecret = @""; // Set the client Secret from your Google developer console
 static NSString *const kGoogleDriveClientKeychainName = @""; // Set a name for the keychain entry
 ```
 
-#### Using *DropboxHelper* to download files
+#### Using *GDDropboxHelper* to download Dropbox files
 ```
 GDDropboxHelper *dropboxHelper = [[GDDropboxHelper alloc] initWithDelegate:self];
 ```
@@ -50,7 +51,7 @@ if (![self.dropboxHelper dropboxAccountLinked]) { // no accounts are currently l
 ```
 
 
-#### Using *GDDropboxHelper* to download files
+#### Using *GDGoogleDriveHelper* to download Google Drive files
 
 If it's the root folder (Read comments in `GDFilePickerViewController` to find why it's done this way)
 ```
