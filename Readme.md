@@ -10,10 +10,11 @@ GDCloudFileBrowser is an iOS drop-in wrapper class that can be used with existin
 * GDCloudFileBrowser uses UIKit, CoreGraphics.
 * GDCloudFileBrowser uses the DropboxSDK [Core SDK](https://www.dropbox.com/developers/downloads/sdks/core/ios/dropbox-ios-sdk-1.3.13.zip) last updated on Sep-15th-2014 (v1.3.13) which requires QuartzCore, Security.framework
 * GDCloudFileBrowser uses the GTL [google-api-objectivec-client](http://google-api-objectivec-client.googlecode.com/svn/trunk/) last updated on Dec-6th-2012 which uses Security, SystemConfiguration.
+* Run ```pod install``` to install Google Drive project
 
 ### Adding GDCloudFileBrowser to your project
 
-Download the Source project and drag and drop the contents of Core folder into your project.
+Download the Source project and drag and drop the contents of Core folder into your project. Run ```pod install``` from your projects root folder.
 
 Your View Controller must conform to the `GDFilePickerDelegate` protocol to receive callbacks.
 
